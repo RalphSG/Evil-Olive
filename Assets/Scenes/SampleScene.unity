@@ -2059,7 +2059,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 5
-  rotSpeed: 300
+  speedSmoothTime: 0.1
+  turnSmoothTime: 0.1
   maxTurnSpeed: 200
 --- !u!4 &2017746753 stripped
 Transform:
