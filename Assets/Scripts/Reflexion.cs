@@ -28,17 +28,22 @@ public class Reflexion : MonoBehaviour
     public float aNormal;
     public float bNormal;
 
+    public bool isActive;
+
     void Start()
     {
         player = GameObject.FindGameObjectWithTag("Player");
-        speed = 500f;
+        speed = 1000f;
         mirror = GameObject.FindGameObjectWithTag("Mirror");
         mirrorX = mirror.transform.position.x;
         mirrorZ = mirror.transform.position.z;
+
+        isActive = true;
     }
 
     void Update()
     {
+        //movement of reflexion
         playerX = player.transform.position.x;
         playerZ = player.transform.position.z;
         mirrorRot = mirror.transform.localEulerAngles.y;
@@ -56,5 +61,34 @@ public class Reflexion : MonoBehaviour
         targetPos = new Vector3 (targetX, gameObject.transform.position.y, targetZ);
 
         transform.position = Vector3.MoveTowards(transform.position, targetPos, speed * Time.deltaTime);
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        foreach (Transform child in transform)
+        {
+            child.gameObject.SetActive(false);
+        }
+
+        isActive = false;
+    }
+    private void OnTriggerStay(Collider other)
+    {
+        foreach (Transform child in transform)
+        {
+            child.gameObject.SetActive(false);
+        }
+
+        isActive = false;
+    }
+
+    private void OnTriggerExit(Collider other)
+    {
+        foreach (Transform child in transform)
+        {
+            child.gameObject.SetActive(true);
+        }
+
+        isActive = true;
     }
 }

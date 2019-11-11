@@ -11,30 +11,30 @@ public class PlayerController : MonoBehaviour
     public float turnSmoothTime = 0.1f;
     float turnSmoothVelocity;
 
+    GameObject reflexion;
+    Reflexion reflexionChild;
 
     Rigidbody rb;
     Animator anim;
-    BoxCollider colSize;
-
-    private Vector3 moveDirection = Vector3.zero;
-    public float maxTurnSpeed = 200f;
 
     // Start is called before the first frame update
     void Start()
     {
+        reflexion = GameObject.FindGameObjectWithTag("Reflexion");
+        reflexionChild = reflexion.gameObject.GetComponent<Reflexion>();
         rb = GetComponent<Rigidbody>();
         anim = GetComponent<Animator>();
-        colSize = GetComponent<BoxCollider>();
     }
 
     // Update is called once per frame
     void Update() {
 
-
+        //walking controller
         Vector2 input = new Vector2(-Input.GetAxisRaw("Vertical"), Input.GetAxisRaw("Horizontal"));
         Vector2 inputDir = input.normalized;
 
-        if (inputDir != Vector2.zero) {
+        if (inputDir != Vector2.zero)
+        {
             float targetRotation = Mathf.Atan2(inputDir.x, inputDir.y) * Mathf.Rad2Deg;
             transform.eulerAngles = Vector3.up * Mathf.SmoothDampAngle(transform.eulerAngles.y, targetRotation, ref turnSmoothVelocity, turnSmoothTime);
         }
@@ -42,7 +42,7 @@ public class PlayerController : MonoBehaviour
         float targetSpeed = speed * inputDir.magnitude;
         currentSpeed = Mathf.SmoothDamp(currentSpeed, targetSpeed, ref speedSmoothVelocity, speedSmoothTime);
 
-        transform.Translate (transform.forward * currentSpeed * Time.deltaTime, Space.World);
+        transform.Translate(transform.forward * currentSpeed * Time.deltaTime, Space.World);
 
         //float moveVertical = Input.GetAxis("Vertical");
         //float moveHorizontal = Input.GetAxis("Horizontal");
@@ -51,6 +51,12 @@ public class PlayerController : MonoBehaviour
         //transform.LookAt(newPosition + transform.position);
         //transform.Translate(newPosition * speed * Time.deltaTime, Space.World);
 
-
+        //warping controller
+        if (reflexionChild.isActive) {
+            if (Input.GetKeyDown("space"))
+            {
+                transform.position = reflexion.transform.position;
+            }
+        }
     }
 }
