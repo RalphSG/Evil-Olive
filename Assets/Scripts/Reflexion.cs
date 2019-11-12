@@ -48,9 +48,9 @@ public class Reflexion : MonoBehaviour
         playerZ = player.transform.position.z;
         mirrorRot = mirror.transform.localEulerAngles.y;
 
-        bMirror = mirrorZ - (Mathf.Tan(Mathf.Deg2Rad * (135 - mirrorRot)) * mirrorX);
+        bMirror = mirrorZ - (Mathf.Tan(Mathf.Deg2Rad * (146 - mirrorRot)) * mirrorX);
 
-        aNormal = -1 / (Mathf.Tan(Mathf.Deg2Rad * (135 - mirrorRot)));
+        aNormal = -1 / (Mathf.Tan(Mathf.Deg2Rad * (146 - mirrorRot)));
 
         bNormal = mirrorZ - (aNormal * mirrorX);
 
