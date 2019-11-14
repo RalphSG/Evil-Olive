@@ -27,10 +27,10 @@ public class ThunderLight : MonoBehaviour
         while (true)
         {
             StartCoroutine("lightningFlickering1");
-            randInitiation = Random.Range(0, 4);
+            randInitiation = Random.Range(0, 2);
             yield return new WaitForSeconds(randInitiation);
             StartCoroutine("lightningFlickering2");
-            randInitiation = Random.Range(0, 4);
+            randInitiation = Random.Range(0, 2);
             yield return new WaitForSeconds(randInitiation);
             StartCoroutine("lightningFlickering3");
             randInitiation = Random.Range(0, 4);
