@@ -23,6 +23,13 @@ public class ThunderLight : MonoBehaviour
     public Light globalLight2;
     public Light globalLight3;
 
+    public ParticleSystem lightning1;
+    public ParticleSystem lightning2;
+    public ParticleSystem lightning3;
+    public ParticleSystem lightning4;
+    public ParticleSystem lightning5;
+    private int randPSInit;
+
     public void Start()
     {
         StartCoroutine("initiateLightning");
@@ -32,14 +39,22 @@ public class ThunderLight : MonoBehaviour
     {
         while (true)
         {
-            StartCoroutine("lightningFlickering1");
-            randInitiation = Random.Range(0, 2);
-            yield return new WaitForSeconds(randInitiation);
-            StartCoroutine("lightningFlickering2");
-            randInitiation = Random.Range(0, 2);
-            yield return new WaitForSeconds(randInitiation);
-            StartCoroutine("lightningFlickering3");
-            randInitiation = Random.Range(0, 4);
+            randInitiation = Random.Range(1, 4);
+            switch (randInitiation)
+            {
+                case 1:
+                    StartCoroutine("lightningFlickering1");
+                    break;
+                case 2:
+                    StartCoroutine("lightningFlickering2");
+                    break;
+                case 3:
+                    StartCoroutine("lightningFlickering3");
+                    break;
+                default:
+                    break;
+            }
+            randInitiation = Random.Range(0, 6);
             yield return new WaitForSeconds(randInitiation);
         }
     }
@@ -49,6 +64,11 @@ public class ThunderLight : MonoBehaviour
         randlight1 = Random.Range(15,20);
         for (int i = 0; i < randlight1; i++)
         {
+            randPSInit = Random.Range(1, 4);
+            if (randPSInit == 1)
+            {
+                lightning3.Play();
+            }
             randPourcent = Random.Range(0, 100);
             globalLight1.intensity = ((maxGlobalFlickerInt - minGlobalFlickerInt) * randPourcent * 0.01f) + minGlobalFlickerInt;
             light1.intensity = ((maxFlickerIntensity - minFlickerIntensity) * randPourcent * 0.01f) + minFlickerIntensity;
@@ -77,6 +97,25 @@ public class ThunderLight : MonoBehaviour
         randlight3 = Random.Range(15, 20);
         for (int i = 0; i < randlight1; i++)
         {
+            randPSInit = Random.Range(1, 10);
+            switch (randPSInit)
+            {
+                case 1:
+                    lightning1.Play();
+                    break;
+                case 2:
+                    lightning2.Play();
+                    break;
+                case 3:
+                    lightning4.Play();
+                    break;
+                case 4:
+                    lightning5.Play();
+                    break;
+                default:
+                    Debug.Log(randPSInit);
+                    break;
+            }
             randPourcent = Random.Range(0, 100);
             globalLight3.intensity = ((maxGlobalFlickerInt - minGlobalFlickerInt) * randPourcent * 0.01f) + minGlobalFlickerInt;
             light3.intensity = ((maxFlickerIntensity - minFlickerIntensity) * randPourcent * 0.01f) + minFlickerIntensity;
