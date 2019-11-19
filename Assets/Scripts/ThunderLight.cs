@@ -61,14 +61,11 @@ public class ThunderLight : MonoBehaviour
 
     IEnumerator lightningFlickering1()
     {
+        lightning3.Play();
+
         randlight1 = Random.Range(15,20);
         for (int i = 0; i < randlight1; i++)
         {
-            randPSInit = Random.Range(1, 4);
-            if (randPSInit == 1)
-            {
-                lightning3.Play();
-            }
             randPourcent = Random.Range(0, 100);
             globalLight1.intensity = ((maxGlobalFlickerInt - minGlobalFlickerInt) * randPourcent * 0.01f) + minGlobalFlickerInt;
             light1.intensity = ((maxFlickerIntensity - minFlickerIntensity) * randPourcent * 0.01f) + minFlickerIntensity;
@@ -76,6 +73,7 @@ public class ThunderLight : MonoBehaviour
         }
         light1.intensity = 0;
         globalLight1.intensity = 0;
+        lightning3.Stop();
     }
 
     IEnumerator lightningFlickering2()
@@ -94,28 +92,28 @@ public class ThunderLight : MonoBehaviour
 
     IEnumerator lightningFlickering3()
     {
+        randPSInit = Random.Range(1, 5);
+        switch (randPSInit)
+        {
+            case 1:
+                lightning1.Play();
+                break;
+            case 2:
+                lightning2.Play();
+                break;
+            case 3:
+                lightning4.Play();
+                break;
+            case 4:
+                lightning5.Play();
+                break;
+            default:
+                Debug.Log(randPSInit);
+                break;
+        }
         randlight3 = Random.Range(15, 20);
         for (int i = 0; i < randlight1; i++)
         {
-            randPSInit = Random.Range(1, 10);
-            switch (randPSInit)
-            {
-                case 1:
-                    lightning1.Play();
-                    break;
-                case 2:
-                    lightning2.Play();
-                    break;
-                case 3:
-                    lightning4.Play();
-                    break;
-                case 4:
-                    lightning5.Play();
-                    break;
-                default:
-                    Debug.Log(randPSInit);
-                    break;
-            }
             randPourcent = Random.Range(0, 100);
             globalLight3.intensity = ((maxGlobalFlickerInt - minGlobalFlickerInt) * randPourcent * 0.01f) + minGlobalFlickerInt;
             light3.intensity = ((maxFlickerIntensity - minFlickerIntensity) * randPourcent * 0.01f) + minFlickerIntensity;
@@ -123,5 +121,9 @@ public class ThunderLight : MonoBehaviour
         }
         light3.intensity = 0;
         globalLight3.intensity = 0;
+        lightning1.Stop();
+        lightning2.Stop();
+        lightning4.Stop();
+        lightning5.Stop();
     }
 }
