@@ -15,7 +15,7 @@
    viewBox="0 0 210 297"
    version="1.1"
    id="svg8"
-   inkscape:export-filename="D:\jeu\Unity\2019\Evil Olive\Assets\IntroScene\ComicStrip_01.png"
+   inkscape:export-filename="D:\jeu\Unity\2019\Evil Olive\Assets\IntroScene\ComicStrip_01_v2.png"
    inkscape:export-xdpi="100"
    inkscape:export-ydpi="100"
    inkscape:version="0.92.3 (2405546, 2018-03-11)"
@@ -45,7 +45,7 @@
        y2="55.788761"
        gradientUnits="userSpaceOnUse" />
     <linearGradient
-       gradientTransform="translate(78.845833)"
+       gradientTransform="matrix(1,0,0,1.3128687,78.845833,-0.75536103)"
        inkscape:collect="always"
        xlink:href="#linearGradient953"
        id="linearGradient921-2-4-6"
@@ -72,9 +72,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.70710678"
-     inkscape:cx="372.44871"
-     inkscape:cy="695.4273"
+     inkscape:zoom="1.4142136"
+     inkscape:cx="524.39035"
+     inkscape:cy="484.4928"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -98,7 +98,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -120,13 +120,6 @@
        height="76.408966"
        x="81.345833"
        y="2.4143066" />
-    <rect
-       style="opacity:1;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
-       id="rect815"
-       width="205.08571"
-       height="292.08569"
-       x="2.5"
-       y="2.4143066" />
     <path
        style="opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        d="m 98.425005,104.03055 0,61.03695"
@@ -140,32 +133,10 @@
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cc" />
     <image
-       y="-22.793051"
-       x="-163.15971"
+       y="-100.24776"
+       x="-242.48531"
        id="image904"
-       xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAZAAAAGQCAIAAAAP3aGbAAAACXBIWXMAAAsTAAALEwEAmpwYAAAA
-B3RJTUUH4wsODAo4EPws3gAAAB1pVFh0Q29tbWVudAAAAAAAQ3JlYXRlZCB3aXRoIEdJTVBkLmUH
-AAAEJElEQVR42u3WsQmDUBiF0bw0gqUIDuA8DiBYCk7gDPaCtdhbZ4IUGSMTuMJzhb9OzhnhFh83
-TfPyIKaqGyMEvc7dCEHj92OEoKcJAMECECxAsAAEC0CwAMECECwAwQIEC0CwAAQLECwAwQIQLECw
-AAQLQLAAwQIQLADBAgQLQLAABAsQLADBAhAsQLAABAsQLADBAhAsQLAABAtAsADBAhAsAMECBAtA
-sAAECxAsAMECECxAsAAEC0CwAMECECwAwQIEC0CwAAQLECwAwQIQLECwAAQLECwAwQIQLECwAAQL
-QLAAwQIQLADBAgQLQLAABAsQLADBAhAsQLAABAtAsADBAhAsAMECBAtAsAAECxAsAMECECxAsAAE
-CxAsAMECECxAsAAEC0CwAMECECwAwQIEC0CwAAQL+F2pawsrBL2v0ghBXT8YIejYViN4WIBgAQgW
-gGABggUgWACCBQgWgGABCBYgWACCBSBYgGABCBYgWACCBSBYgGABCBaAYAGCBSBYAIIFCBaAYAEI
-FiBYAIIFIFiAYAEIFoBgAYIFIFgAggUIFoBgAQgWIFgAggUgWIBgAQgWIFgAggUgWIBgAQgWgGAB
-ggUgWACCBQgWgGABCBYgWACCBSBYgGABCBaAYAGCBSBYAIIFCBaAYAEIFiBYAIIFIFiAYAEIFiBY
-AIIFIFiAYAEIFoBgAYIFIFgAggUIFoBgAQgWIFgAggUgWIBgAQgWgGABggUgWACCBQgWgGABCBYg
-WACCBZByzlYAPCwAwQIEC0CwAAQLECwAwQIQLECwAAQLQLAAwQIQLADBAgQLQLAABAsQLADBAhAs
-QLAABAtAsADBAhAsAMECBAtAsADBAhAsAMECBAtAsAAECxAsAMECECxAsAAEC0CwAMECECwAwQIE
-C0CwAAQLECwAwQIQLECwAAQLQLAAwQIQLADBAgQLQLAAwQIQLADBAgQLQLAABAsQLADBAhAsQLAA
-BAtAsADBAhAsAMECBAtAsAAECxAsAMECECxAsAAEC0CwAMECECwAwQIEC0CwAMECECwAwQIEC0Cw
-AAQLECwAwQIQLECwAAQLQLAAwQIQLADBAgQLQLAABAsQLADBAhAsQLAABAtAsADBAhAsAMECBAtA
-sADBAhAsAMECBAtAsAAECxAsAMECECxAsAAEC0CwAMECECwAwQIEC0CwAAQLECwAwQIQLECwAAQL
-QLAAwQIQLADBAgQLQLAAwQIQLADBAgQLQLAABAsQLADBAhAsQLAABAtAsADBAhAsAMECBAtAsAAE
-CxAsAMECECxAsAAEC0CwAMECECxAsEwACBaAYAGCBSBYAIIFCBaAYAEIFiBYAIIFIFiAYAEIFoBg
-AYIFIFgAggUIFoBgAQgWIFgAggUgWIBgAQgWgGABggUgWMC/uwEjkBDF5tk9KgAAAABJRU5ErkJg
-gg==
-"
+       xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAZAAAAGQCAIAAAAP3aGbAAAACXBIWXMAAAsTAAALEwEAmpwYAAAA B3RJTUUH4wsODAo4EPws3gAAAB1pVFh0Q29tbWVudAAAAAAAQ3JlYXRlZCB3aXRoIEdJTVBkLmUH AAAEJElEQVR42u3WsQmDUBiF0bw0gqUIDuA8DiBYCk7gDPaCtdhbZ4IUGSMTuMJzhb9OzhnhFh83 TfPyIKaqGyMEvc7dCEHj92OEoKcJAMECECxAsAAEC0CwAMECECwAwQIEC0CwAAQLECwAwQIQLECw AAQLQLAAwQIQLADBAgQLQLAABAsQLADBAhAsQLAABAsQLADBAhAsQLAABAtAsADBAhAsAMECBAtA sAAECxAsAMECECxAsAAEC0CwAMECECwAwQIEC0CwAAQLECwAwQIQLECwAAQLECwAwQIQLECwAAQL QLAAwQIQLADBAgQLQLAABAsQLADBAhAsQLAABAtAsADBAhAsAMECBAtAsAAECxAsAMECECxAsAAE CxAsAMECECxAsAAEC0CwAMECECwAwQIEC0CwAAQL+F2pawsrBL2v0ghBXT8YIejYViN4WIBgAQgW gGABggUgWACCBQgWgGABCBYgWACCBSBYgGABCBYgWACCBSBYgGABCBaAYAGCBSBYAIIFCBaAYAEI FiBYAIIFIFiAYAEIFoBgAYIFIFgAggUIFoBgAQgWIFgAggUgWIBgAQgWIFgAggUgWIBgAQgWgGAB ggUgWACCBQgWgGABCBYgWACCBSBYgGABCBaAYAGCBSBYAIIFCBaAYAEIFiBYAIIFIFiAYAEIFiBY AIIFIFiAYAEIFoBgAYIFIFgAggUIFoBgAQgWIFgAggUgWIBgAQgWgGABggUgWACCBQgWgGABCBYg WACCBZByzlYAPCwAwQIEC0CwAAQLECwAwQIQLECwAAQLQLAAwQIQLADBAgQLQLAABAsQLADBAhAs QLAABAtAsADBAhAsAMECBAtAsADBAhAsAMECBAtAsAAECxAsAMECECxAsAAEC0CwAMECECwAwQIE C0CwAAQLECwAwQIQLECwAAQLQLAAwQIQLADBAgQLQLAAwQIQLADBAgQLQLAABAsQLADBAhAsQLAA BAtAsADBAhAsAMECBAtAsAAECxAsAMECECxAsAAEC0CwAMECECwAwQIEC0CwAMECECwAwQIEC0Cw AAQLECwAwQIQLECwAAQLQLAAwQIQLADBAgQLQLAABAsQLADBAhAsQLAABAtAsADBAhAsAMECBAtA sADBAhAsAMECBAtAsAAECxAsAMECECxAsAAEC0CwAMECECwAwQIEC0CwAAQLECwAwQIQLECwAAQL QLAAwQIQLADBAgQLQLAAwQIQLADBAgQLQLAABAsQLADBAhAsQLAABAtAsADBAhAsAMECBAtAsAAE CxAsAMECECxAsAAEC0CwAMECECxAsEwACBaAYAGCBSBYAIIFCBaAYAEIFiBYAIIFIFiAYAEIFoBg AYIFIFgAggUIFoBgAQgWIFgAggUgWIBgAQgWgGABggUgWMC/uwEjkBDF5tk9KgAAAABJRU5ErkJg gg== "
        preserveAspectRatio="none"
        height="141.1111"
        width="141.1111" />
@@ -175,260 +146,434 @@ gg==
        d="m 104.74393,43.575177 a 14.963817,13.426004 0 0 0 -14.963608,13.425815 14.963817,13.426004 0 0 0 0.0242,0.617673 V 78.80215 H 119.70754 V 57.01212 a 14.963817,13.426004 0 0 0 6.4e-4,-0.01114 14.963817,13.426004 0 0 0 -14.96423,-13.425809 z"
        id="path1005-6" />
     <path
-       style="opacity:1;fill:#4d2307;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:18.92622566;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
-       d="M 396.50781 173.83984 L 396.50781 297.83398 L 443.00586 297.83398 L 443.00586 221.12305 A 47.123713 47.266397 0 0 0 443.00781 221.08398 A 47.123713 47.266397 0 0 0 396.50781 173.83984 z M 395.25977 173.84961 A 47.123713 47.266397 0 0 0 348.75977 221.08398 A 47.123713 47.266397 0 0 0 348.83594 223.25781 L 348.83594 297.83398 L 395.25977 297.83398 L 395.25977 173.84961 z "
+       style="opacity:1;fill:#222222;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:18.92622566;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       d="M 396.50781 173.83984 L 396.50781 173.84961 L 395.25977 173.84961 A 47.123713 47.266397 0 0 0 348.75977 221.08398 A 47.123713 47.266397 0 0 0 348.83594 223.25781 L 348.83594 297.83398 L 395.25977 297.83398 L 396.50781 297.83398 L 443.00586 297.83398 L 443.00586 221.12305 A 47.123713 47.266397 0 0 0 443.00781 221.08398 A 47.123713 47.266397 0 0 0 396.50781 173.83984 z "
        transform="scale(0.26458333)"
-       id="path1005" />
+       id="path1005-5" />
     <path
-       style="opacity:1;fill:url(#linearGradient921-2-4);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
-       d="M 2.5000028,2.4143066 H 81.345833 V 59.074119 L 2.5000028,79.505725 Z"
-       id="rect912-1-9"
+       style="opacity:1;fill:#4d2307;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:5.00756359;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       d="m -198.17475,216.67647 v 32.80678 h 12.30261 v -20.29643 a 12.468149,12.505901 0 0 0 5.2e-4,-0.0103 12.468149,12.505901 0 0 0 -12.30313,-12.50002 z m -0.33021,0.003 a 12.468149,12.505901 0 0 0 -12.30312,12.49742 12.468149,12.505901 0 0 0 0.0202,0.57516 v 19.73161 h 12.28297 z"
+       id="path1005"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="ccccc" />
+       inkscape:export-filename="D:\jeu\Unity\2019\Evil Olive\Assets\IntroScene\S01_DoorClosed.png"
+       inkscape:export-xdpi="100"
+       inkscape:export-ydpi="100" />
     <path
        inkscape:connector-curvature="0"
        style="opacity:1;fill:#4d2307;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2.34861493;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
-       d="m 73.274951,62.636328 c -2.907078,4.9e-5 -5.26372,2.917323 -5.26376,6.515974 9.41e-4,0.09999 0.0039,0.199938 0.0086,0.299775 V 83.143121 L 78.538748,79.733092 V 69.157701 l 2.22e-4,-0.0054 c -4.3e-5,-3.598753 -2.356817,-6.516067 -5.263979,-6.515969 z"
+       d="m 73.016503,62.702781 c -2.907078,4.9e-5 -5.26372,2.917323 -5.26376,6.515974 9.41e-4,0.09999 0.0039,0.199938 0.0086,0.299775 V 83.209574 L 78.2803,79.799545 V 69.224154 l 2.22e-4,-0.0054 c -4.3e-5,-3.598753 -2.356817,-6.516067 -5.263979,-6.515969 z"
        id="path1005-3"
        sodipodi:nodetypes="ccccccccc" />
     <path
        inkscape:connector-curvature="0"
-       style="opacity:1;fill:#4d2307;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:3.14729357;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
-       d="m 58.02243,61.186355 c -3.895671,6.8e-5 -7.053721,3.909398 -7.053775,8.731821 0.0013,0.133998 0.005,0.26794 0.01138,0.401717 v 18.346893 l 14.096171,-4.569672 v -14.1717 l 2.98e-4,-0.0073 c -5.7e-5,-4.822562 -3.158285,-8.731948 -7.054066,-8.731817 z"
+       style="opacity:1;fill:#4d2307;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:3.8627317;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       d="m 58.57571,55.27975 c -4.781229,8.3e-5 -8.657162,4.798076 -8.657228,10.716725 0.0016,0.164458 0.0061,0.328848 0.01396,0.493035 V 89.006991 L 67.23294,83.398548 V 66.005359 l 3.66e-4,-0.009 c -7e-5,-5.91882 -3.876222,-10.716882 -8.657586,-10.716721 z"
        id="path1005-3-3"
        sodipodi:nodetypes="ccccccccc" />
     <path
        inkscape:connector-curvature="0"
-       style="opacity:1;fill:#4d2307;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:3.98008394;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
-       d="m 39.37886,60.563143 c -4.926484,8.6e-5 -8.920169,4.943844 -8.920238,11.042303 0.0016,0.169454 0.0065,0.338839 0.01443,0.508018 l -3e-5,23.201562 17.82608,-5.778826 V 71.6146 l 3.79e-4,-0.0093 c -7.4e-5,-6.098636 -3.993984,-11.042465 -8.92061,-11.042298 z"
+       style="opacity:1;fill:#4d2307;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:5.54851055;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       d="m 36.537974,48.927127 c -6.867857,1.19e-4 -12.435328,6.892058 -12.435424,15.393728 0.0022,0.236231 0.0091,0.472365 0.02012,0.708212 l -4.1e-5,32.344571 24.850779,-8.05608 V 64.333617 l 5.29e-4,-0.01297 C 48.97383,55.818734 43.406045,48.926697 36.53799,48.92693 Z"
        id="path1005-3-1"
        sodipodi:nodetypes="ccccccccc" />
     <path
-       inkscape:connector-curvature="0"
-       style="opacity:1;fill:#4d2307;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:4.73779869;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
-       d="m 16.898097,59.862105 c -5.864372,1.03e-4 -10.6183626,5.885038 -10.6184446,13.144502 0.0019,0.201714 0.0076,0.403346 0.01718,0.604732 V 103.15252 L 27.51655,96.27355 V 73.017503 l 4.49e-4,-0.01093 C 27.516912,65.746896 22.762655,59.861876 16.898114,59.862074 Z"
-       id="path1005-3-9"
-       sodipodi:nodetypes="ccccccccc" />
-    <path
-       inkscape:connector-curvature="0"
-       style="opacity:1;fill:#9eecff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:3.4982655;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
-       d="m 17.427327,63.408406 c -4.330098,7.6e-5 -7.8403196,4.345356 -7.8403806,9.705553 0.0014,0.148941 0.0056,0.29782 0.01268,0.446518 l 0,28.521353 15.6680806,-5.079254 0,-23.880572 3.32e-4,-0.0081 c -6.2e-5,-5.360358 -3.510479,-9.705702 -7.840702,-9.705555 z"
-       id="path1005-3-9-0"
-       sodipodi:nodetypes="ccccccccc" />
+       style="opacity:1;fill:#4d2307;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:32.58216095;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       d="M 10.84375 119.99023 C 10.377504 119.99024 9.9133845 120.00094 9.4492188 120.01172 L 9.4492188 394.51953 L 83.867188 370.39453 L 83.867188 210.46094 L 83.871094 210.38672 C 83.870497 160.46143 51.174596 119.98887 10.84375 119.99023 z "
+       transform="scale(0.26458333)"
+       id="path1005-3-9" />
     <image
        y="-22.793051"
        x="-304.27081"
        id="image1114"
-       xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAZAAAAGQCAYAAACAvzbMAAAACXBIWXMAAAsTAAALEwEAmpwYAAAA
-B3RJTUUH4wsIFTcYd+aDiwAAAB1pVFh0Q29tbWVudAAAAAAAQ3JlYXRlZCB3aXRoIEdJTVBkLmUH
-AAAFkklEQVR42u3bMc4BQRiA4VnZiGglDkDzx3XUer1C3MAxxEkcw99QuIOIFeMACgRrjOc5wGby
-7WTfzCRbzGejGEhGd7L8ujWXRQinTHfR/7BtUyakP14YQkIaRoB4AAKCeAACgngAAoJ4AAKCeIgH
-ICCIByAgiAdQ+3fBCPhUPHrN1z+ziiHsKu8MBIRs4/HXetOCz94Z1MUVFvnEAxAQxAMQEMRDPEBA
-EA/xAAQE8QAEBPEABATxAAQE8QAEBPEQD0BAEA9AQBAPQEAQD0BAEA9AQBAP8QAERDzEAxAQxAMQ
-EMQDEBDEAxAQxEM8AAERD/EABATxuGFztA9AQBCPB60P9gEICOIhHiAgiId4gIAgHuIBCIh4iAcg
-IOIhHoCAIB7PxcP/KiAgiId4gIAgHuIBAoJ4iAcgIOIhHoCAiId4AAKCeIgHCAjiUXs8/B8CAiIe
-4iEeICA8QjzEAwSEJIgHICCIh3iAgCAe4gECgniIBwgI4iEegID8pF5TPAABIWPiAQIC4gECAuIB
-CAjiAQgI4gEICOIhHiAgIB6AgCAegIAgHoCAIB6AgCAe4gECAuIBCAjiAQgI4gEICOIBCAjiIR4g
-ICAegIAgHoCAIB6AgCAewFcpjSAfVQwhnF//3M1RPAABydquSutkAuTNFRYAAgKAgAAgIAAICAAI
-CAACAoCAACAgAAgIAAgIAAICgIAAICAACAgACAgAAgKAgAAgIAAICAAICAACAoCAACAgAAgIANyh
-3J4GppCQaccMkrLamwE4gQAgIAAICAACAoCAAICAACAgAAgIAAICgIAAgIAAICAACAgAAgKAgACA
-gAAgIAAICAACAoCAAICAACAgAAgIAAICAAICgIAAICAACAgAAgIAAgKAgAAgIAAICAACAgACAoCA
-ACAgAAgIAAICAAICgIAAICAACAgAAgIAAgKAgAAgIAAICAACAgACAoCAACAgAAgIAAICAAICgIAA
-ICAACAgACAgAAgKAgAAgIAAICAAICAACAoCAACAgAAgIAAgIAAICgIAAICAACAgACAgAAgKAgAAg
-IAAICAAICAACAoCAACAgAAgIAAgIAAICgIAAICAACAgACAgAAgKAgAAgIAAICAAICAACAoCAACAg
-ACAgAAgIAPUqYozRGABwAgFAQAAQEAAEBAAEBAABAUBAABAQAAQEAAQEAAEBQEAAEBAABAQABAQA
-AQFAQAAQEAAEBAAEBAABAUBAABAQAAQEAAQEAAEBQEAAEBAABAQABAQAAQFAQAAQEAAEBAAEBAAB
-AUBAABAQAAQEAAQEAAEBQEAAEBAAEBAABAQAAQFAQAAQEAAQEAAEBAABAUBAABAQABAQAAQEAAEB
-QEAAEBAAEBAABAQAAQFAQAAQEAAQEAAEBAABAUBAABAQABAQAAQEAAEBQEAAEBAAEBAABAQAAQFA
-QABAQAAQEAAEBAABAUBAAEBAABAQAAQEAAEBQEAAQEAAEBAABAQAAQFAQABAQAAQEAAEBAABAUBA
-AEBAABAQAAQEAAEBQEAAQEAAEBAABAQAAQFAQABAQAAQEAAEBAABAUBAAEBAABAQAAQEAAEBAAEB
-QEAAEBAABAQAAQEAAQFAQAAQEAAEBAABAQABAUBAABAQAAQEAAEBAAEBQEAAEBAABAQAAQEAAQFA
-QAAQEAAEBAABAQABAUBAABAQAAQEAAEBAAEBQEAAEBAABAQABAQAAQFAQAAQEAAEBAAEBAABAUBA
-ABAQAAQEAAQEAAEBQEAAEBAABAQABAQAAQFAQAAQEAAEBAAEBAABAUBAABAQAAQEAAQEAAEBQEAA
-EBAABAQABAQAAQFAQAAQEAAEBAAEBAABAUBAABAQABAQAAQEAAEBQEAAEBAAEBAABAQAAQFAQAAQ
-EAC4cgF4bhBZONJ1uAAAAABJRU5ErkJggg==
-"
+       xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAZAAAAGQCAYAAACAvzbMAAAACXBIWXMAAAsTAAALEwEAmpwYAAAA B3RJTUUH4wsIFTcYd+aDiwAAAB1pVFh0Q29tbWVudAAAAAAAQ3JlYXRlZCB3aXRoIEdJTVBkLmUH AAAFkklEQVR42u3bMc4BQRiA4VnZiGglDkDzx3XUer1C3MAxxEkcw99QuIOIFeMACgRrjOc5wGby 7WTfzCRbzGejGEhGd7L8ujWXRQinTHfR/7BtUyakP14YQkIaRoB4AAKCeAACgngAAoJ4AAKCeIgH ICCIByAgiAdQ+3fBCPhUPHrN1z+ziiHsKu8MBIRs4/HXetOCz94Z1MUVFvnEAxAQxAMQEMRDPEBA EA/xAAQE8QAEBPEABATxAAQE8QAEBPEQD0BAEA9AQBAPQEAQD0BAEA9AQBAP8QAERDzEAxAQxAMQ EMQDEBDEAxAQxEM8AAERD/EABATxuGFztA9AQBCPB60P9gEICOIhHiAgiId4gIAgHuIBCIh4iAcg IOIhHoCAIB7PxcP/KiAgiId4gIAgHuIBAoJ4iAcgIOIhHoCAiId4AAKCeIgHCAjiUXs8/B8CAiIe 4iEeICA8QjzEAwSEJIgHICCIh3iAgCAe4gECgniIBwgI4iEegID8pF5TPAABIWPiAQIC4gECAuIB CAjiAQgI4gEICOIhHiAgIB6AgCAegIAgHoCAIB6AgCAe4gECAuIBCAjiAQgI4gEICOIBCAjiIR4g ICAegIAgHoCAIB6AgCAewFcpjSAfVQwhnF//3M1RPAABydquSutkAuTNFRYAAgKAgAAgIAAICAAI CAACAoCAACAgAAgIAAgIAAICgIAAICAACAgACAgAAgKAgAAgIAAICAAICAACAoCAACAgAAgIANyh 3J4GppCQaccMkrLamwE4gQAgIAAICAACAoCAAICAACAgAAgIAAICgIAAgIAAICAACAgAAgKAgACA gAAgIAAICAACAoCAAICAACAgAAgIAAICAAICgIAAICAACAgAAgIAAgKAgAAgIAAICAACAgACAoCA ACAgAAgIAAICAAICgIAAICAACAgAAgIAAgKAgAAgIAAICAACAgACAoCAACAgAAgIAAICAAICgIAA ICAACAgACAgAAgKAgAAgIAAICAAICAACAoCAACAgAAgIAAgIAAICgIAAICAACAgACAgAAgKAgAAg IAAICAAICAACAoCAACAgAAgIAAgIAAICgIAAICAACAgACAgAAgKAgAAgIAAICAAICAACAoCAACAg ACAgAAgIAPUqYozRGABwAgFAQAAQEAAEBAAEBAABAUBAABAQAAQEAAQEAAEBQEAAEBAABAQABAQA AQFAQAAQEAAEBAAEBAABAUBAABAQAAQEAAQEAAEBQEAAEBAABAQABAQAAQFAQAAQEAAEBAAEBAAB AUBAABAQAAQEAAQEAAEBQEAAEBAAEBAABAQAAQFAQAAQEAAQEAAEBAABAUBAABAQABAQAAQEAAEB QEAAEBAAEBAABAQAAQFAQAAQEAAQEAAEBAABAUBAABAQABAQAAQEAAEBQEAAEBAAEBAABAQAAQFA QABAQAAQEAAEBAABAUBAAEBAABAQAAQEAAEBQEAAQEAAEBAABAQAAQFAQABAQAAQEAAEBAABAUBA AEBAABAQAAQEAAEBQEAAQEAAEBAABAQAAQFAQABAQAAQEAAEBAABAUBAAEBAABAQAAQEAAEBAAEB QEAAEBAABAQAAQEAAQFAQAAQEAAEBAABAQABAUBAABAQAAQEAAEBAAEBQEAAEBAABAQAAQEAAQFA QAAQEAAEBAABAQABAUBAABAQAAQEAAEBAAEBQEAAEBAABAQABAQAAQFAQAAQEAAEBAAEBAABAUBA ABAQAAQEAAQEAAEBQEAAEBAABAQABAQAAQFAQAAQEAAEBAAEBAABAUBAABAQAAQEAAQEAAEBQEAA EBAABAQABAQAAQFAQAAQEAAEBAAEBAABAUBAABAQABAQAAQEAAEBQEAAEBAAEBAABAQAAQFAQAAQ EAC4cgF4bhBZONJ1uAAAAABJRU5ErkJggg== "
        preserveAspectRatio="none"
        height="141.1111"
        width="141.1111" />
     <path
-       style="opacity:1;fill:url(#linearGradient921-2-4-6);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
-       d="M 81.345833,2.4143066 H 128.16241 V 59.074119 H 81.345833 Z"
-       id="rect912-1-9-5"
-       inkscape:connector-curvature="0"
-       sodipodi:nodetypes="ccccc" />
-    <path
-       style="opacity:1;fill:url(#linearGradient921-2-4-8);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
-       d="M 207.00824,2.4143066 H 128.16241 V 59.074119 l 78.84583,20.431606 z"
-       id="rect912-1-9-2"
-       inkscape:connector-curvature="0"
-       sodipodi:nodetypes="ccccc" />
-    <path
        inkscape:connector-curvature="0"
        style="opacity:1;fill:#4d2307;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2.34861493;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
-       d="m 136.56573,62.694788 c 2.90708,4.9e-5 5.26372,2.917323 5.26376,6.515974 -0.001,0.09999 -0.004,0.199938 -0.009,0.299775 v 13.691044 l -10.51897,-3.410029 v -10.57539 l -2.2e-4,-0.0054 c 4e-5,-3.598754 2.35683,-6.516068 5.26399,-6.51597 z"
+       d="m 293.97369,-95.119931 c 2.90708,4.9e-5 5.26372,2.917323 5.26376,6.515974 -0.001,0.09999 -0.004,0.199938 -0.009,0.299775 v 13.691044 l -10.51897,-3.410029 v -10.57539 l -2.2e-4,-0.0054 c 4e-5,-3.598754 2.35683,-6.516068 5.26399,-6.51597 z"
        id="path1005-3-7"
        sodipodi:nodetypes="ccccccccc" />
     <path
        inkscape:connector-curvature="0"
        style="opacity:1;fill:#4d2307;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:3.14729357;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
-       d="m 151.81826,61.18635 c 3.89567,6.8e-5 7.05372,3.909398 7.05377,8.731821 -0.001,0.133998 -0.005,0.26794 -0.0114,0.401717 V 88.66678 l -14.09618,-4.569671 v -14.1717 l -2.6e-4,-0.0073 c 2e-5,-4.822561 3.15825,-8.731948 7.05404,-8.731817 z"
+       d="m 309.22622,-96.628369 c 3.89567,6.8e-5 7.05372,3.909398 7.05377,8.731821 -10e-4,0.133998 -0.005,0.26794 -0.0114,0.401717 v 18.346892 l -14.09618,-4.569671 v -14.1717 l -2.6e-4,-0.0073 c 2e-5,-4.822561 3.15825,-8.731948 7.05404,-8.731817 z"
        id="path1005-3-3-3"
        sodipodi:nodetypes="ccccccccc" />
     <path
        inkscape:connector-curvature="0"
        style="opacity:1;fill:#4d2307;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:3.98008394;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
-       d="m 170.46184,60.563138 c 4.92648,8.6e-5 8.92017,4.943845 8.92024,11.042303 -0.002,0.169454 -0.007,0.338839 -0.0144,0.508018 l 3e-5,23.201562 -17.82609,-5.778825 V 71.614595 l -2.7e-4,-0.0093 c -4e-5,-6.098636 3.99388,-11.042465 8.92051,-11.042298 z"
+       d="m 327.8698,-97.251581 c 4.92648,8.6e-5 8.92017,4.943845 8.92024,11.042303 -0.002,0.169454 -0.007,0.338839 -0.0144,0.508018 l 3e-5,23.201562 -17.82609,-5.778825 v -17.921601 l -2.7e-4,-0.0093 c -4e-5,-6.098636 3.99388,-11.042465 8.92051,-11.042298 z"
        id="path1005-3-1-2"
        sodipodi:nodetypes="ccccccccc" />
     <path
        inkscape:connector-curvature="0"
        style="opacity:1;fill:#4d2307;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:4.73779869;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
-       d="m 192.94261,59.8621 c 5.86437,1.03e-4 10.61838,5.885038 10.61846,13.144502 -0.002,0.201714 -0.008,0.403346 -0.0172,0.604732 V 103.15252 L 182.32413,96.273546 V 73.017498 l -4.5e-4,-0.01093 c 9e-5,-7.259677 4.75435,-13.144697 10.6189,-13.144499 z"
+       d="m 350.35057,-97.952619 c 5.86437,1.03e-4 10.61838,5.885038 10.61846,13.144502 -0.002,0.201714 -0.008,0.403346 -0.0172,0.604732 v 29.541186 l -21.21974,-6.878974 v -23.256048 l -4.5e-4,-0.01093 c 9e-5,-7.259677 4.75435,-13.144697 10.6189,-13.144499 z"
        id="path1005-3-9-1"
        sodipodi:nodetypes="ccccccccc" />
     <path
        inkscape:connector-curvature="0"
        style="opacity:1;fill:#9eecff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:3.4982655;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
-       d="m 192.41338,63.408401 c 4.3301,7.6e-5 7.84032,4.345357 7.84038,9.705553 -0.001,0.148941 -0.006,0.29782 -0.0127,0.446518 V 102.08183 L 184.57297,97.002571 V 73.121999 l -3.4e-4,-0.0081 c 7e-5,-5.360358 3.5105,-9.705702 7.84072,-9.705555 z"
+       d="m 349.82134,-94.406318 c 4.3301,7.6e-5 7.84032,4.345357 7.84038,9.705553 -10e-4,0.148941 -0.006,0.29782 -0.0127,0.446518 v 28.521358 l -15.66809,-5.079259 V -84.69272 l -3.4e-4,-0.0081 c 7e-5,-5.360358 3.5105,-9.705702 7.84072,-9.705555 z"
        id="path1005-3-9-0-6"
        sodipodi:nodetypes="ccccccccc" />
     <path
        inkscape:connector-curvature="0"
        style="opacity:1;fill:#9eecff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2.80571079;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
-       d="m 170.27187,63.384525 c 3.47287,6.2e-5 6.28817,3.485102 6.28822,7.784137 -0.001,0.119455 -0.005,0.238859 -0.0102,0.35812 v 22.874956 l -12.56623,-4.07371 V 71.175114 l -2.7e-4,-0.0065 c 5e-5,-4.299164 2.81551,-7.784255 6.28849,-7.784138 z"
+       d="m 327.67983,-94.430194 c 3.47287,6.2e-5 6.28817,3.485102 6.28822,7.784137 -0.001,0.119455 -0.005,0.238859 -0.0102,0.35812 v 22.874956 l -12.56623,-4.07371 v -19.152914 l -2.7e-4,-0.0065 c 5e-5,-4.299164 2.81551,-7.784255 6.28849,-7.784138 z"
        id="path1005-3-9-0-3-6"
        sodipodi:nodetypes="ccccccccc" />
     <path
        inkscape:connector-curvature="0"
        style="opacity:1;fill:#9eecff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2.16953015;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
-       d="m 151.73773,63.946685 c 2.68541,4.6e-5 4.86236,2.694873 4.8624,6.019123 -8e-4,0.09237 -0.003,0.184698 -0.008,0.276917 V 87.9309 l -9.71696,-3.150017 V 69.970797 l -2.1e-4,-0.005 c 4e-5,-3.324349 2.17711,-6.019212 4.86261,-6.019122 z"
+       d="m 309.14569,-93.868034 c 2.68541,4.6e-5 4.86236,2.694873 4.8624,6.019123 -8e-4,0.09237 -0.003,0.184698 -0.008,0.276917 v 17.688175 l -9.71696,-3.150017 v -14.810086 l -2.1e-4,-0.005 c 4e-5,-3.324349 2.17711,-6.019212 4.86261,-6.019122 z"
        id="path1005-3-9-0-32-5"
        sodipodi:nodetypes="ccccccccc" />
     <path
        inkscape:connector-curvature="0"
        style="opacity:1;fill:#9eecff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.6552695;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
-       d="m 136.33417,64.565449 c 2.07866,3.5e-5 3.76374,2.02662 3.76376,4.526547 -7.9e-4,0.06947 -0.003,0.1389 -0.006,0.208251 v 13.301996 l -7.52145,-2.368899 V 69.095748 l -1.6e-4,-0.0038 c 3e-5,-2.500003 1.68521,-4.526616 3.76393,-4.526547 z"
+       d="m 293.74213,-93.24927 c 2.07866,3.5e-5 3.76374,2.02662 3.76376,4.526547 -7.9e-4,0.06947 -0.003,0.1389 -0.006,0.208251 v 13.301996 l -7.52145,-2.368899 v -11.137596 l -1.6e-4,-0.0038 c 3e-5,-2.500003 1.68521,-4.526616 3.76393,-4.526547 z"
        id="path1005-3-9-0-9-2"
        sodipodi:nodetypes="ccccccccc" />
     <circle
        style="opacity:1;fill:#ffdb35;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        id="path1231"
-       cx="103.30164"
-       cy="71.979103"
-       r="0.74835467" />
+       cx="-199.78246"
+       cy="242.66045"
+       r="0.74835467"
+       inkscape:export-filename="D:\jeu\Unity\2019\Evil Olive\Assets\IntroScene\S01_DoorClosed.png"
+       inkscape:export-xdpi="100"
+       inkscape:export-ydpi="100" />
     <circle
        style="opacity:1;fill:#ffdb35;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        id="path1231-9"
-       cx="106.1459"
-       cy="71.979103"
-       r="0.74835467" />
+       cx="-196.9382"
+       cy="242.66045"
+       r="0.74835467"
+       inkscape:export-filename="D:\jeu\Unity\2019\Evil Olive\Assets\IntroScene\S01_DoorClosed.png"
+       inkscape:export-xdpi="100"
+       inkscape:export-ydpi="100" />
     <path
-       inkscape:connector-curvature="0"
-       style="opacity:1;fill:#9eecff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:3.4982655;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
-       d="m 17.427321,63.408406 c -4.330098,7.6e-5 -7.8403198,4.345356 -7.8403808,9.705553 0.0014,0.148941 0.0056,0.29782 0.01268,0.446518 V 102.08183 L 25.267701,97.002577 V 73.122004 l 3.44e-4,-0.0081 c -7.4e-5,-5.360358 -3.510491,-9.705702 -7.840714,-9.705555 z"
-       id="path1005-3-9-0-5"
-       sodipodi:nodetypes="ccccccccc" />
+       style="opacity:1;fill:#9eecff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:24.05780983;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       d="M 14.482422 144.37891 C 12.783887 144.37894 11.107631 144.48947 9.4492188 144.67969 L 9.4492188 394.51953 L 68.402344 375.4082 L 68.402344 211.17969 L 68.404297 211.125 C 68.403772 174.26146 44.261658 144.3779 14.482422 144.37891 z "
+       transform="scale(0.26458333)"
+       id="path1005-3-9-0-5" />
     <path
-       style="opacity:1;fill:#d4f5ff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:18.89763832;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
-       d="M 89.501953 254.21484 L 36.28125 307.43555 L 36.28125 321.43555 L 93.765625 263.95117 C 92.743426 260.42341 91.296443 257.14807 89.501953 254.21484 z "
+       style="opacity:1;fill:#d4f5ff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:34.38534164;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       d="M 57.488281 170.87305 L 9.4492188 218.91211 L 9.4492188 244.38672 L 65.246094 188.58984 C 63.386143 182.17088 60.753457 176.21023 57.488281 170.87305 z "
        transform="scale(0.26458333)"
        id="rect1265" />
     <path
-       style="opacity:1;fill:#d4f5ff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:18.89763832;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
-       d="M 94.605469 267.36328 L 36.28125 325.6875 L 36.28125 379.6875 L 95.5 320.46875 L 95.5 276.36719 L 95.501953 276.33594 C 95.50191 273.24007 95.188837 270.23507 94.605469 267.36328 z "
+       style="opacity:1;fill:#d4f5ff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:34.38534164;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       d="M 66.775391 194.79883 L 9.4492188 252.12305 L 9.4492188 350.37891 L 68.402344 291.42578 L 68.402344 211.18164 L 68.40625 211.125 C 68.406174 205.49188 67.836863 200.02421 66.775391 194.79883 z "
        transform="scale(0.26458333)"
        id="rect1267" />
     <path
        inkscape:connector-curvature="0"
-       style="opacity:1;fill:#9eecff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2.78536534;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
-       d="m 39.741746,63.538565 c -3.447682,6e-5 -6.242567,3.45983 -6.242615,7.72769 0.0011,0.118588 0.0044,0.237128 0.01011,0.355523 v 22.70908 L 45.98436,90.286689 V 71.272661 l 2.74e-4,-0.0065 c -5.9e-5,-4.267988 -2.7951,-7.727809 -6.24288,-7.727691 z"
+       style="opacity:1;fill:#9eecff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:3.8829906;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       d="m 37.043862,53.075069 c -4.806305,8.4e-5 -8.702567,4.823241 -8.702634,10.772931 0.0015,0.165319 0.0061,0.330572 0.01409,0.495623 V 96.00164 L 45.746495,90.363791 V 63.85693 l 3.82e-4,-0.0091 C 45.746795,57.898 41.850316,53.074772 37.043874,53.074937 Z"
        id="path1005-3-9-0-5-3"
        sodipodi:nodetypes="ccccccccc" />
     <path
        inkscape:connector-curvature="0"
-       style="opacity:1;fill:#d4f5ff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:3.98106623;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
-       d="M 44.720789,66.606058 33.509062,77.817786 v 2.949307 L 45.618993,68.65716 c -0.215339,-0.743176 -0.520168,-1.433174 -0.898204,-2.051102 z"
+       style="opacity:1;fill:#d4f5ff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:5.54987955;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       d="M 43.98499,57.351365 28.355073,72.981284 V 77.09282 L 45.237148,60.210742 c -0.300197,-1.036038 -0.72515,-1.997943 -1.252158,-2.859377 z"
        id="rect1265-3" />
     <path
        inkscape:connector-curvature="0"
-       style="opacity:1;fill:#d4f5ff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:3.98106623;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
-       d="M 45.795919,69.375971 33.509062,81.662829 V 93.038725 L 45.984366,80.563421 v -9.290643 l 4.2e-4,-0.0066 c -8e-6,-0.652191 -0.06597,-1.285238 -0.188857,-1.890223 z"
+       style="opacity:1;fill:#d4f5ff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:5.54987955;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       d="M 45.483795,61.212814 28.355073,78.341538 v 15.85878 l 17.39143,-17.39143 V 63.857093 l 5.86e-4,-0.0092 c -1.1e-5,-0.909199 -0.09197,-1.79171 -0.26328,-2.6351 z"
        id="rect1267-6" />
     <path
        inkscape:connector-curvature="0"
-       style="opacity:1;fill:#9eecff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2.16952324;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
-       d="m 58.104042,63.946764 c -2.685402,4.7e-5 -4.86234,2.694865 -4.862378,6.019104 8.69e-4,0.09237 0.0034,0.184699 0.0079,0.276917 v 17.68812 l 9.716891,-3.150007 V 69.970857 l 2.13e-4,-0.005 c -4.6e-5,-3.32434 -2.177105,-6.019196 -4.862585,-6.019105 z"
+       style="opacity:1;fill:#9eecff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2.66269612;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       d="m 58.675875,58.667651 c -3.295844,5.8e-5 -5.96764,3.307458 -5.967687,7.387357 0.0011,0.113368 0.0042,0.226685 0.0097,0.339866 V 88.103831 L 64.643604,84.237769 V 66.061131 l 2.61e-4,-0.0061 c -5.6e-5,-4.080024 -2.672001,-7.38747 -5.96794,-7.387358 z"
        id="path1005-3-9-0-5-4"
        sodipodi:nodetypes="ccccccccc" />
     <path
        inkscape:connector-curvature="0"
-       style="opacity:1;fill:#d4f5ff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:3.10085559;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
-       d="M 61.982222,66.336038 53.2494,75.068861 v 2.297217 l 9.432435,-9.432437 c -0.167729,-0.578858 -0.40516,-1.116299 -0.699613,-1.597603 z"
+       style="opacity:1;fill:#d4f5ff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:3.8057375;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       d="M 63.435636,61.600051 52.717682,72.318006 v 2.819417 L 64.294284,63.560819 c -0.205857,-0.710444 -0.49726,-1.370055 -0.858648,-1.960768 z"
        id="rect1265-1" />
     <path
        inkscape:connector-curvature="0"
-       style="opacity:1;fill:#d4f5ff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:3.10085559;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
-       d="M 62.819643,68.493524 53.2494,78.063768 v 8.860693 l 9.717023,-9.717023 v -7.23649 l 3.29e-4,-0.0052 c -7e-6,-0.507992 -0.05138,-1.001074 -0.147102,-1.472297 z"
+       style="opacity:1;fill:#d4f5ff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:3.8057375;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       d="M 64.463419,64.247973 52.717682,75.993711 V 86.868603 L 64.643565,74.942721 v -8.881478 l 4.04e-4,-0.0064 c -9e-6,-0.623468 -0.06306,-1.228637 -0.180542,-1.806977 z"
        id="rect1267-9" />
     <path
        inkscape:connector-curvature="0"
        style="opacity:1;fill:#9eecff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.66450095;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
-       d="m 73.466678,64.201143 c -2.060293,3.6e-5 -3.730483,2.067553 -3.730512,4.617975 6.66e-4,0.07087 0.0027,0.141705 0.006,0.212456 V 82.602248 L 77.19719,80.185501 V 68.822945 l 1.63e-4,-0.0039 C 77.197318,66.268547 75.527035,64.201 73.466683,64.20107 Z"
+       d="m 73.20823,64.267596 c -2.060293,3.6e-5 -3.730483,2.067553 -3.730512,4.617975 6.66e-4,0.07087 0.0027,0.141705 0.006,0.212456 v 13.570674 l 7.455024,-2.416747 V 68.889398 l 1.63e-4,-0.0039 C 76.93887,66.335 75.268587,64.267453 73.208235,64.267523 Z"
        id="path1005-3-9-0-5-6"
        sodipodi:nodetypes="ccccccccc" />
     <path
        inkscape:connector-curvature="0"
        style="opacity:1;fill:#d4f5ff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2.37903738;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
-       d="m 76.442094,66.03424 -6.699993,6.699994 v 1.762471 l 7.23675,-7.236751 C 76.850166,66.815842 76.668004,66.403507 76.442094,66.03424 Z"
+       d="m 76.183646,66.100693 -6.699993,6.699994 v 1.762471 l 7.23675,-7.236751 C 76.591718,66.882295 76.409556,66.46996 76.183646,66.100693 Z"
        id="rect1265-0" />
     <path
        inkscape:connector-curvature="0"
        style="opacity:1;fill:#d4f5ff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2.37903738;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
-       d="m 77.08458,67.689507 -7.342479,7.342479 v 6.798098 l 7.455092,-7.455091 v -5.551977 l 2.52e-4,-0.0039 c -6e-6,-0.389742 -0.03942,-0.768043 -0.11286,-1.129575 z"
+       d="m 76.826132,67.75596 -7.342479,7.342479 v 6.798098 l 7.455092,-7.455091 v -5.551977 l 2.52e-4,-0.0039 c -6e-6,-0.389742 -0.03942,-0.768043 -0.11286,-1.129575 z"
        id="rect1267-69" />
     <path
        inkscape:connector-curvature="0"
        style="opacity:1;fill:#d4f5ff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
-       d="M 198.65355,67.70763 184.57223,81.788943 V 85.49311 L 199.78164,70.2837 c -0.27045,-0.933386 -0.6533,-1.799987 -1.12809,-2.57607 z"
+       d="m 356.06151,-90.107089 -14.08132,14.081313 v 3.704167 l 15.20941,-15.20941 c -0.27045,-0.933386 -0.6533,-1.799987 -1.12809,-2.57607 z"
        id="rect1265-5" />
     <path
        inkscape:connector-curvature="0"
        style="opacity:1;fill:#d4f5ff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
-       d="m 200.00385,71.186488 -15.43162,15.431617 v 14.287505 l 15.6683,-15.6683 V 73.568772 l 5.3e-4,-0.0083 c -1e-5,-0.81911 -0.0828,-1.614183 -0.2372,-2.374011 z"
+       d="m 357.41181,-86.628231 -15.43162,15.431617 v 14.287505 l 15.6683,-15.6683 v -11.668538 l 5.3e-4,-0.0083 c -1e-5,-0.81911 -0.0828,-1.614183 -0.2372,-2.374011 z"
        id="rect1267-0" />
     <path
        inkscape:connector-curvature="0"
        style="opacity:1;fill:#d4f5ff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:3.98106623;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
-       d="M 175.28589,66.866662 164.07416,78.07839 v 2.949307 l 12.10993,-12.109933 c -0.21534,-0.743176 -0.52017,-1.433174 -0.8982,-2.051102 z"
+       d="m 332.69385,-90.948057 -11.21173,11.211728 v 2.949307 l 12.10993,-12.109933 c -0.21534,-0.743176 -0.52017,-1.433174 -0.8982,-2.051102 z"
        id="rect1265-3-4" />
     <path
        inkscape:connector-curvature="0"
        style="opacity:1;fill:#d4f5ff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:3.98106623;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
-       d="m 176.36102,69.636575 -12.28686,12.286858 v 11.375896 l 12.4753,-12.475304 v -9.290643 l 4.3e-4,-0.0066 c -1e-5,-0.652191 -0.066,-1.285238 -0.18886,-1.890223 z"
+       d="m 333.76898,-88.178144 -12.28686,12.286858 v 11.375896 l 12.4753,-12.475304 v -9.290643 l 4.3e-4,-0.0066 c -1e-5,-0.652191 -0.066,-1.285238 -0.18886,-1.890223 z"
        id="rect1267-6-7" />
     <path
        inkscape:connector-curvature="0"
        style="opacity:1;fill:#d4f5ff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:3.10085559;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
-       d="m 155.60762,66.613015 -8.73282,8.732823 v 2.297217 l 9.43244,-9.432437 c -0.16773,-0.578858 -0.40516,-1.116299 -0.69962,-1.597603 z"
+       d="m 313.01558,-91.201704 -8.73282,8.732823 v 2.297217 l 9.43244,-9.432437 c -0.16773,-0.578858 -0.40516,-1.116299 -0.69962,-1.597603 z"
        id="rect1265-1-8" />
     <path
        inkscape:connector-curvature="0"
        style="opacity:1;fill:#d4f5ff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:3.10085559;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
-       d="m 156.44503,68.770501 -9.57023,9.570244 v 8.860693 l 9.71702,-9.717023 v -7.23649 l 3.1e-4,-0.0052 c 0,-0.507992 -0.0514,-1.001074 -0.1471,-1.472297 z"
+       d="m 313.85299,-89.044218 -9.57023,9.570244 v 8.860693 l 9.71702,-9.717023 v -7.23649 l 3.1e-4,-0.0052 c 0,-0.507992 -0.0514,-1.001074 -0.1471,-1.472297 z"
        id="rect1267-9-5" />
     <path
        inkscape:connector-curvature="0"
        style="opacity:1;fill:#d4f5ff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2.37903738;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
-       d="m 139.34283,66.30322 -6.7744,6.774408 v 1.762471 l 7.31116,-7.311165 c -0.12869,-0.444112 -0.31085,-0.856447 -0.53676,-1.225714 z"
+       d="m 296.75079,-91.511499 -6.7744,6.774408 v 1.762471 l 7.31116,-7.311165 c -0.12869,-0.444112 -0.31085,-0.856447 -0.53676,-1.225714 z"
        id="rect1265-0-1"
        sodipodi:nodetypes="ccccc" />
     <path
        inkscape:connector-curvature="0"
        style="opacity:1;fill:#d4f5ff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2.37903738;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
-       d="m 139.98532,67.958487 -7.41689,7.416893 v 6.798098 l 7.5295,-7.529505 v -5.551977 l 2.5e-4,-0.0039 c 0,-0.389742 -0.0394,-0.768043 -0.11286,-1.129575 z"
+       d="m 297.39328,-89.856232 -7.41689,7.416893 v 6.798098 l 7.5295,-7.529505 v -5.551977 l 2.5e-4,-0.0039 c 0,-0.389742 -0.0394,-0.768043 -0.11286,-1.129575 z"
        id="rect1267-69-9"
        sodipodi:nodetypes="cccccccc" />
+    <ellipse
+       style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       id="path875"
+       cx="41.706894"
+       cy="195.90385"
+       rx="14.780005"
+       ry="18.334688"
+       inkscape:export-filename="D:\jeu\Unity\2019\Evil Olive\Assets\IntroScene\EvilOlive.png"
+       inkscape:export-xdpi="100"
+       inkscape:export-ydpi="100" />
+    <path
+       style="opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;stroke:#040000;stroke-width:1.38515389;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       d="m 21.127143,183.5065 7.04786,6.2021 -10.53482,25.93617 c 7.90013,4.17346 15.04519,5.29467 24.06671,5.35636 9.02151,-0.0617 16.16658,-1.1829 24.0667,-5.35636 l -10.53482,-25.93617 7.04786,-6.2021 -10.71274,2.81914 h -9.867 -9.867 z"
+       id="path877"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccccccccc"
+       inkscape:export-filename="D:\jeu\Unity\2019\Evil Olive\Assets\IntroScene\EvilOlive.png"
+       inkscape:export-xdpi="100"
+       inkscape:export-ydpi="100" />
+    <rect
+       style="opacity:1;fill:#f0f0f0;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.25196826;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       id="rect903"
+       width="200.0596"
+       height="96.949219"
+       x="-0.97379452"
+       y="-135.76645"
+       inkscape:export-filename="D:\jeu\Unity\2019\Evil Olive\Assets\IntroScene\MaskStrip01.png"
+       inkscape:export-xdpi="100"
+       inkscape:export-ydpi="100" />
+    <rect
+       style="opacity:1;fill:#f0f0f0;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.6376211;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       id="rect903-3"
+       width="90.937172"
+       height="55.322407"
+       x="-154.81125"
+       y="83.865997"
+       inkscape:export-filename="D:\jeu\Unity\2019\Evil Olive\Assets\IntroScene\MaskStrip02.png"
+       inkscape:export-xdpi="100"
+       inkscape:export-ydpi="100" />
+    <rect
+       style="opacity:1;fill:#f0f0f0;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.68262887;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       id="rect903-3-0"
+       width="104.2494"
+       height="55.311176"
+       x="286.04257"
+       y="21.158468"
+       inkscape:export-filename="D:\jeu\Unity\2019\Evil Olive\Assets\IntroScene\MaskStrip03.png"
+       inkscape:export-xdpi="100"
+       inkscape:export-ydpi="100" />
+    <path
+       style="opacity:1;fill:#4d2307;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.32933581;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       d="m -108.17093,165.88746 c -6.79281,-1e-4 -11.77037,6.82069 -11.77034,11.90289 V 199.342 l 11.77034,2.11667 v -21.55165 z"
+       id="rect953"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccccc"
+       inkscape:export-filename="D:\jeu\Unity\2019\Evil Olive\Assets\IntroScene\S01_DoorOpen.png"
+       inkscape:export-xdpi="100"
+       inkscape:export-ydpi="100" />
+    <path
+       style="opacity:1;fill:#3f1c07;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.94331616;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       d="m -108.17094,165.88746 0.99011,0.0828 v 35.4884 h -0.99011 z"
+       id="rect964"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="D:\jeu\Unity\2019\Evil Olive\Assets\IntroScene\S01_DoorOpen.png"
+       inkscape:export-xdpi="100"
+       inkscape:export-ydpi="100" />
+    <path
+       style="opacity:1;fill:#4d2307;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.32933581;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       d="m -156.62741,165.88746 c 6.79281,-1e-4 11.77037,6.82069 11.77034,11.90289 V 199.342 l -11.77034,2.11667 v -21.55165 z"
+       id="rect953-3"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccccc"
+       inkscape:export-filename="D:\jeu\Unity\2019\Evil Olive\Assets\IntroScene\S01_DoorOpen.png"
+       inkscape:export-xdpi="100"
+       inkscape:export-ydpi="100" />
+    <path
+       style="opacity:1;fill:#3f1c07;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.94331616;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       d="m -156.6274,165.88746 -0.99011,0.0828 v 35.4884 h 0.99011 z"
+       id="rect964-9"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="D:\jeu\Unity\2019\Evil Olive\Assets\IntroScene\S01_DoorOpen.png"
+       inkscape:export-xdpi="100"
+       inkscape:export-ydpi="100" />
+    <path
+       style="opacity:1;fill:#4d2307;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.32933581;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       d="m -105.61814,215.56197 c -6.79281,-1e-4 -12.29954,7.34985 -12.29951,12.43206 v 21.55165 l 12.29951,1.5875 v -21.55166 z"
+       id="rect953-8"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccccc"
+       inkscape:export-filename="D:\jeu\Unity\2019\Evil Olive\Assets\IntroScene\S01_DoorClosing.png"
+       inkscape:export-xdpi="100"
+       inkscape:export-ydpi="100" />
+    <path
+       style="opacity:1;fill:#3f1c07;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.94331616;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       d="m -105.61814,215.56197 0.75625,0.0828 v 35.4884 h -0.75625 z"
+       id="rect964-0"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="D:\jeu\Unity\2019\Evil Olive\Assets\IntroScene\S01_DoorClosing.png"
+       inkscape:export-xdpi="100"
+       inkscape:export-ydpi="100" />
+    <path
+       style="opacity:1;fill:#4d2307;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.32933581;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       d="m -155.13296,215.56198 c 6.79281,-9e-5 12.29954,7.34986 12.29951,12.43206 v 21.55165 l -12.29951,1.5875 v -21.55165 z"
+       id="rect953-8-8"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccccc"
+       inkscape:export-filename="D:\jeu\Unity\2019\Evil Olive\Assets\IntroScene\S01_DoorClosing.png"
+       inkscape:export-xdpi="100"
+       inkscape:export-ydpi="100" />
+    <path
+       style="opacity:1;fill:#3f1c07;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.94331616;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       d="m -155.13296,215.56199 -0.75625,0.0828 v 35.48839 h 0.75625 z"
+       id="rect964-0-4"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="D:\jeu\Unity\2019\Evil Olive\Assets\IntroScene\S01_DoorClosing.png"
+       inkscape:export-xdpi="100"
+       inkscape:export-ydpi="100" />
+    <path
+       inkscape:connector-curvature="0"
+       style="opacity:1;fill:#4d2307;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2.34861493;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       d="m 136.41589,62.659596 c 2.90708,5e-5 5.26372,2.917323 5.26376,6.515973 -0.001,0.09999 -0.004,0.199941 -0.009,0.299776 V 83.166389 L 131.15169,79.75636 V 69.18097 l -2.2e-4,-0.0054 c 4e-5,-3.598754 2.35681,-6.516066 5.26398,-6.515968 z"
+       id="path1005-3-32"
+       sodipodi:nodetypes="ccccccccc" />
+    <path
+       inkscape:connector-curvature="0"
+       style="opacity:1;fill:#4d2307;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:3.8627317;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       d="m 150.85668,55.236565 c 4.78123,8.3e-5 8.65716,4.798076 8.65723,10.716726 -0.002,0.164457 -0.006,0.328848 -0.014,0.493035 v 22.517481 l -17.3005,-5.608444 V 65.962176 l -2.6e-4,-0.009 c 6e-5,-5.918819 3.87622,-10.716882 8.65758,-10.716721 z"
+       id="path1005-3-3-7"
+       sodipodi:nodetypes="ccccccccc" />
+    <path
+       inkscape:connector-curvature="0"
+       style="opacity:1;fill:#4d2307;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:5.54851055;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       d="m 172.89442,48.883942 c 6.86786,1.19e-4 12.43533,6.892058 12.43542,15.393729 -0.002,0.236231 -0.009,0.472364 -0.0201,0.708211 l 4e-5,32.344571 -24.85078,-8.056081 v -24.98394 l -5.3e-4,-0.01296 c 1.1e-4,-8.501917 5.56789,-15.393954 12.43595,-15.393722 z"
+       id="path1005-3-1-6"
+       sodipodi:nodetypes="ccccccccc" />
+    <path
+       style="opacity:1;fill:#4d2307;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:32.58216095;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       d="M 780.71094 119.82812 C 740.38009 119.82676 707.68608 160.29737 707.68555 210.22266 L 707.6875 210.29883 L 707.6875 370.23242 L 784.57617 395.1582 L 784.57617 119.95312 C 783.29614 119.87046 782.00759 119.82815 780.71094 119.82812 z "
+       transform="scale(0.26458333)"
+       id="path1005-3-9-6" />
+    <path
+       style="opacity:1;fill:#9eecff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:24.05780983;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       d="M 777.07227 144.21484 C 747.29303 144.21383 723.15054 174.0974 723.15039 210.96094 L 723.15234 211.01758 L 723.15234 375.24609 L 784.57617 395.1582 L 784.57617 144.87305 C 782.12253 144.44986 779.62005 144.21684 777.07227 144.2168 L 777.07227 144.21484 z "
+       transform="scale(0.26458333)"
+       id="path1005-3-9-0-5-42" />
+    <path
+       style="opacity:1;fill:#d4f5ff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:34.38534546;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       d="M 784.57617 206.12305 L 723.15039 267.54883 L 723.15039 293.02148 L 784.57617 231.5957 L 784.57617 206.12305 z "
+       transform="scale(0.26458333)"
+       id="rect1265-8" />
+    <path
+       style="opacity:1;fill:#d4f5ff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:34.38534546;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       d="M 784.57617 239.33203 L 723.15039 300.75977 L 723.15039 399.01562 L 784.57617 337.58984 L 784.57617 239.33203 z "
+       transform="scale(0.26458333)"
+       id="rect1267-02" />
+    <path
+       inkscape:connector-curvature="0"
+       style="opacity:1;fill:#9eecff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:3.8829906;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       d="m 172.38853,53.031884 c 4.80631,8.4e-5 8.70257,4.823241 8.70263,10.772932 -0.002,0.165317 -0.006,0.33057 -0.0141,0.495623 v 31.658017 l -17.39117,-5.63785 v -26.50686 l -2.7e-4,-0.0091 c -2e-5,-5.949829 3.89646,-10.773057 8.7029,-10.772892 z"
+       id="path1005-3-9-0-5-3-1"
+       sodipodi:nodetypes="ccccccccc" />
+    <path
+       inkscape:connector-curvature="0"
+       style="opacity:1;fill:#d4f5ff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:5.54987955;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       d="M 179.31528,57.30818 163.68536,72.9381 v 4.111535 l 16.88208,-16.882078 c -0.3002,-1.036037 -0.72515,-1.997943 -1.25216,-2.859377 z"
+       id="rect1265-3-42" />
+    <path
+       inkscape:connector-curvature="0"
+       style="opacity:1;fill:#d4f5ff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:5.54987955;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       d="m 180.81409,61.16963 -17.12873,17.128722 v 15.858781 l 17.39143,-17.39143 V 63.813907 l 5.3e-4,-0.0092 c -10e-6,-0.909199 -0.092,-1.791708 -0.26328,-2.6351 z"
+       id="rect1267-6-3" />
+    <path
+       inkscape:connector-curvature="0"
+       style="opacity:1;fill:#9eecff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2.66269612;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       d="m 150.75651,58.624468 c 3.29585,5.5e-5 5.96764,3.307455 5.96769,7.387354 -0.001,0.113369 -0.004,0.226687 -0.01,0.339868 V 88.060647 L 144.78848,84.194584 V 66.017947 l -2.6e-4,-0.0061 c 5e-5,-4.080023 2.672,-7.387468 5.96793,-7.387357 z"
+       id="path1005-3-9-0-5-4-8"
+       sodipodi:nodetypes="ccccccccc" />
+    <path
+       inkscape:connector-curvature="0"
+       style="opacity:1;fill:#d4f5ff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:3.8057375;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       d="M 155.50626,61.556866 144.7883,72.274822 v 2.819416 l 11.5766,-11.576603 c -0.20585,-0.710444 -0.49726,-1.370055 -0.85864,-1.960769 z"
+       id="rect1265-1-4" />
+    <path
+       inkscape:connector-curvature="0"
+       style="opacity:1;fill:#d4f5ff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:3.8057375;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       d="M 156.53404,64.204789 144.7883,75.950527 v 10.874891 l 11.92589,-11.925882 v -8.881478 l 5.2e-4,-0.0064 c 0,-0.623466 -0.0631,-1.228637 -0.18054,-1.806977 z"
+       id="rect1267-9-9" />
+    <path
+       inkscape:connector-curvature="0"
+       style="opacity:1;fill:#9eecff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.66450095;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       d="m 136.22416,64.224411 c 2.06029,3.7e-5 3.73048,2.067555 3.73051,4.617976 -7.9e-4,0.07087 -0.003,0.141703 -0.006,0.212456 v 13.570675 l -7.45502,-2.41675 V 68.846213 l -1.6e-4,-0.0039 c 3e-5,-2.550499 1.67031,-4.618045 3.73067,-4.617974 z"
+       id="path1005-3-9-0-5-6-0"
+       sodipodi:nodetypes="ccccccccc" />
+    <path
+       inkscape:connector-curvature="0"
+       style="opacity:1;fill:#d4f5ff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2.37903738;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       d="m 139.19339,66.057508 -6.7,6.699993 v 1.762472 l 7.23675,-7.236751 c -0.12868,-0.444111 -0.31085,-0.856446 -0.53675,-1.225714 z"
+       id="rect1265-0-2" />
+    <path
+       inkscape:connector-curvature="0"
+       style="opacity:1;fill:#d4f5ff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2.37903738;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       d="m 139.83587,67.712775 -7.34248,7.342479 v 6.798098 l 7.45509,-7.45509 v -5.551977 l 2.6e-4,-0.0039 c -10e-6,-0.389741 -0.0394,-0.768043 -0.11286,-1.129575 z"
+       id="rect1267-69-2" />
+    <rect
+       style="opacity:1;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       id="rect815"
+       width="205.08571"
+       height="292.08569"
+       x="2.5"
+       y="2.4143066" />
     <path
        style="opacity:1;fill:#79899e;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:4.42030096;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        d="m 81.345833,78.823271 h 46.816577 l 79.90417,25.560099 H 2.5 Z"
@@ -441,5 +586,325 @@ EAC4cgF4bhBZONJ1uAAAAABJRU5ErkJggg==
        id="path817"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cc" />
+    <path
+       style="opacity:1;fill:url(#linearGradient921-2-4);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       d="M 2.5000028,2.4143071 H 81.345833 V 59.074119 L 2.5000028,79.505725 Z"
+       id="rect912-1-9"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc" />
+    <path
+       style="opacity:1;fill:url(#linearGradient921-2-4-8);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       d="M 207.00824,2.4143066 H 128.16241 V 59.074119 l 78.84583,20.431606 z"
+       id="rect912-1-9-2"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc" />
+    <path
+       style="opacity:1;fill:url(#linearGradient921-2-4-6);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:5.72902441;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       d="M 81.345833,2.4143066 H 128.16241 V 76.801202 H 81.345833 Z"
+       id="rect912-1-9-5"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc" />
+    <ellipse
+       style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:4.27403784;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       id="path875-8"
+       cx="163.51134"
+       cy="175.24194"
+       rx="10.820274"
+       ry="18.299812"
+       inkscape:export-filename="D:\jeu\Unity\2019\Evil Olive\Assets\IntroScene\EvilOliveReflexion.png"
+       inkscape:export-xdpi="100"
+       inkscape:export-ydpi="100"
+       transform="matrix(0.98905526,0.14754554,-0.11501434,0.99336383,0,0)" />
+    <path
+       style="opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;stroke:#040000;stroke-width:1.1837213;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       d="m 128.44511,190.62676 c 1.75872,-0.37852 2.32843,-1.28587 3.28672,3.0643 l -4.71824,16.96951 c 5.2412,4.99121 5.14657,11.39148 11.67177,12.42712 6.53935,0.9133 11.84164,0.57333 18.04101,-2.71109 l -4.65065,-26.85298 5.81517,-5.38794 -8.08047,1.63795 -7.3267,0.50817 -7.14448,-1.0658 z"
+       id="path877-1"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccccccccc"
+       inkscape:export-filename="D:\jeu\Unity\2019\Evil Olive\Assets\IntroScene\EvilOliveReflexion.png"
+       inkscape:export-xdpi="100"
+       inkscape:export-ydpi="100" />
+    <path
+       inkscape:connector-curvature="0"
+       style="opacity:1;fill:#9eecff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:6.36529541;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       d="m 205.60029,228.10454 c -7.87909,-2.6e-4 -14.26679,7.90643 -14.26683,17.65991 l 5.3e-4,0.015 v 43.45213 L 207.58571,294.5 v -66.22128 c -0.64919,-0.11197 -1.3113,-0.17362 -1.9854,-0.17363 z"
+       id="path1005-3-9-0-5-42-5"
+       inkscape:export-filename="D:\jeu\Unity\2019\Evil Olive\Assets\IntroScene\MaskMirrors.png"
+       inkscape:export-xdpi="100"
+       inkscape:export-ydpi="100" />
+    <path
+       inkscape:connector-curvature="0"
+       style="opacity:1;fill:#9eecff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:3.8829906;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       d="m 172.38846,242.97955 c 4.80631,8e-5 8.70257,4.82324 8.70263,10.77293 -0.002,0.16532 -0.006,0.33057 -0.0141,0.49562 v 31.65802 l -17.39117,-5.63785 v -26.50686 l -2.7e-4,-0.009 c -2e-5,-5.94983 3.89646,-10.77306 8.7029,-10.77289 z"
+       id="path1005-3-9-0-5-3-1-2"
+       sodipodi:nodetypes="ccccccccc"
+       inkscape:export-filename="D:\jeu\Unity\2019\Evil Olive\Assets\IntroScene\MaskMirrors.png"
+       inkscape:export-xdpi="100"
+       inkscape:export-ydpi="100" />
+    <path
+       inkscape:connector-curvature="0"
+       style="opacity:1;fill:#9eecff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2.66269612;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       d="m 150.75644,248.57218 c 3.29585,6e-5 5.96764,3.30746 5.96769,7.38736 -0.001,0.11337 -0.004,0.22668 -0.01,0.33987 v 21.70895 l -11.92572,-3.86606 v -18.17664 l -2.6e-4,-0.006 c 5e-5,-4.08002 2.672,-7.38747 5.96793,-7.38735 z"
+       id="path1005-3-9-0-5-4-8-6"
+       sodipodi:nodetypes="ccccccccc"
+       inkscape:export-filename="D:\jeu\Unity\2019\Evil Olive\Assets\IntroScene\MaskMirrors.png"
+       inkscape:export-xdpi="100"
+       inkscape:export-ydpi="100" />
+    <path
+       inkscape:connector-curvature="0"
+       style="opacity:1;fill:#9eecff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.66450095;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       d="m 136.22408,254.17218 c 2.0603,3e-5 3.73048,2.06755 3.73052,4.61797 -8e-4,0.0709 -0.003,0.1417 -0.006,0.21246 v 13.57067 l -7.45502,-2.41675 v -11.36255 l -1.6e-4,-0.004 c 3e-5,-2.5505 1.67031,-4.61805 3.73067,-4.61798 z"
+       id="path1005-3-9-0-5-6-0-5"
+       sodipodi:nodetypes="ccccccccc"
+       inkscape:export-filename="D:\jeu\Unity\2019\Evil Olive\Assets\IntroScene\MaskMirrors.png"
+       inkscape:export-xdpi="100"
+       inkscape:export-ydpi="100" />
+    <path
+       inkscape:connector-curvature="0"
+       style="opacity:1;fill:#9eecff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:6.36529541;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       d="m 3.8320068,228.14772 c 7.8791002,-2.6e-4 14.2667902,7.90643 14.2668302,17.65991 l -5.3e-4,0.015 v 43.45213 L 1.8465868,294.54318 V 228.3219 c 0.64919,-0.11197 1.3113,-0.17362 1.9854,-0.17363 z"
+       id="path1005-3-9-0-5-42-5-3"
+       inkscape:export-filename="D:\jeu\Unity\2019\Evil Olive\Assets\IntroScene\MaskMirrors.png"
+       inkscape:export-xdpi="100"
+       inkscape:export-ydpi="100" />
+    <path
+       inkscape:connector-curvature="0"
+       style="opacity:1;fill:#9eecff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:3.8829906;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       d="m 37.043852,243.02273 c -4.80632,8e-5 -8.702585,4.82324 -8.702645,10.77293 0.002,0.16532 0.006,0.33057 0.0141,0.49562 v 31.65802 l 17.391175,-5.63785 v -26.50686 l 2.7e-4,-0.009 c 2e-5,-5.94983 -3.89646,-10.77306 -8.7029,-10.77289 z"
+       id="path1005-3-9-0-5-3-1-2-7"
+       sodipodi:nodetypes="ccccccccc"
+       inkscape:export-filename="D:\jeu\Unity\2019\Evil Olive\Assets\IntroScene\MaskMirrors.png"
+       inkscape:export-xdpi="100"
+       inkscape:export-ydpi="100" />
+    <path
+       inkscape:connector-curvature="0"
+       style="opacity:1;fill:#9eecff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2.66269612;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       d="m 58.675862,248.61536 c -3.29585,6e-5 -5.96764,3.30746 -5.96769,7.38736 0.001,0.11337 0.004,0.22668 0.01,0.33987 v 21.70895 l 11.92572,-3.86606 v -18.17664 l 2.6e-4,-0.006 c -5e-5,-4.08001 -2.672,-7.38746 -5.96793,-7.38734 z"
+       id="path1005-3-9-0-5-4-8-6-1"
+       sodipodi:nodetypes="ccccccccc"
+       inkscape:export-filename="D:\jeu\Unity\2019\Evil Olive\Assets\IntroScene\MaskMirrors.png"
+       inkscape:export-xdpi="100"
+       inkscape:export-ydpi="100" />
+    <path
+       inkscape:connector-curvature="0"
+       style="opacity:1;fill:#9eecff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.66450095;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       d="m 73.208222,254.21536 c -2.0603,3e-5 -3.73048,2.06755 -3.73052,4.61797 7.9e-4,0.0709 0.003,0.1417 0.006,0.21246 v 13.57067 l 7.45502,-2.41675 v -11.36255 l 1.6e-4,-0.004 c -3e-5,-2.5505 -1.67031,-4.61805 -3.73067,-4.61798 z"
+       id="path1005-3-9-0-5-6-0-5-9"
+       sodipodi:nodetypes="ccccccccc"
+       inkscape:export-filename="D:\jeu\Unity\2019\Evil Olive\Assets\IntroScene\MaskMirrors.png"
+       inkscape:export-xdpi="100"
+       inkscape:export-ydpi="100" />
+    <path
+       style="opacity:1;fill:#9eecff;fill-opacity:0.58823529;fill-rule:nonzero;stroke:none;stroke-width:6.36529541;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       d="m 3.8618772,131.45923 v 17.18293 L 14.087093,138.41695 c -2.388181,-3.90403 -6.0508725,-6.54534 -10.2252158,-6.95772 z m 10.2252158,6.95772 c 0.088,0.14385 0.179043,0.28477 0.26355,0.43201 -0.08453,-0.14729 -0.169295,-0.2943 -0.257349,-0.43821 z m 0.344682,0.57309 c 0.07951,0.14145 0.15735,0.2845 0.233577,0.42891 -0.07623,-0.14448 -0.154044,-0.2874 -0.233577,-0.42891 z m 0.334346,0.62373 c 0.07456,0.14541 0.148452,0.29153 0.219625,0.43977 -0.07123,-0.14837 -0.145013,-0.29423 -0.219625,-0.43977 z m 0.273885,0.55708 c 0.13581,0.28775 0.26478,0.58067 0.387573,0.87849 -0.12274,-0.2978 -0.251815,-0.59074 -0.387573,-0.87849 z m 0.478007,1.0976 c 0.05715,0.14361 0.1118,0.28933 0.165882,0.43512 -0.05408,-0.14585 -0.108706,-0.29144 -0.165882,-0.43512 z m 0.255799,0.68265 c 0.05093,0.14312 0.100885,0.28693 0.148828,0.43201 -0.04794,-0.14511 -0.0979,-0.28886 -0.148828,-0.43201 z m 0.241845,0.72398 c 0.04246,0.13537 0.08578,0.27025 0.125574,0.40722 -0.03982,-0.13699 -0.08311,-0.27183 -0.125574,-0.40722 z m 0.129708,0.42375 -12.2834878,12.28349 v 2.04691 L 16.547408,144.74421 c -0.113823,-0.55903 -0.246574,-1.1088 -0.402043,-1.64538 z m 0.609265,2.82412 c 0.0078,0.0539 0.0153,0.10815 0.02274,0.16226 -0.0075,-0.0542 -0.01488,-0.10827 -0.02274,-0.16226 z m 0.09715,0.76481 c 0.003,0.0274 0.0064,0.0547 0.0093,0.0822 -0.0029,-0.0275 -0.0063,-0.0547 -0.0093,-0.0822 z m 0.07286,0.79685 c 0.002,0.0275 0.0033,0.0552 0.0052,0.0827 -0.0019,-0.0275 -0.0032,-0.0552 -0.0052,-0.0827 z m 0.03876,0.7214 c 0.0017,0.0442 0.0037,0.0885 0.0052,0.13281 -0.0015,-0.0443 -0.0035,-0.0885 -0.0052,-0.13281 z m 0.01757,22.10098 -13.1190958,13.1191 v 11.65251 l 5.2394735,0.003 7.8796223,-2.55437 z"
+       id="path1005-3-9-0-5-0"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="D:\jeu\Unity\2019\Evil Olive\Assets\IntroScene\OverMaskMirror.png"
+       inkscape:export-xdpi="100"
+       inkscape:export-ydpi="100" />
+    <path
+       style="opacity:1;fill:#d4f5ff;fill-opacity:0.58823529;fill-rule:nonzero;stroke:none;stroke-width:9.09778786;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       d="M 14.093294,138.41075 3.8618772,148.64216 v 6.74016 l 12.2840048,-12.284 c -0.49211,-1.69835 -1.188678,-3.27544 -2.052588,-4.68757 z"
+       id="rect1265-80"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="D:\jeu\Unity\2019\Evil Olive\Assets\IntroScene\OverMaskMirror.png"
+       inkscape:export-xdpi="100"
+       inkscape:export-ydpi="100" />
+    <path
+       style="opacity:1;fill:#d4f5ff;fill-opacity:0.58823529;fill-rule:nonzero;stroke:none;stroke-width:9.09778786;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       d="M 16.550508,144.74111 3.8618772,157.42923 v 25.99686 l 13.1190958,-13.1191 v -21.23126 l 0.001,-0.015 c -2e-5,-1.49043 -0.150648,-2.93708 -0.431498,-4.31963 z"
+       id="rect1267-5"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="D:\jeu\Unity\2019\Evil Olive\Assets\IntroScene\OverMaskMirror.png"
+       inkscape:export-xdpi="100"
+       inkscape:export-ydpi="100" />
+    <path
+       style="opacity:1;fill:#9eecff;fill-opacity:0.58823529;fill-rule:nonzero;stroke:none;stroke-width:3.8829906;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       d="m 35.926681,146.27585 c -4.806288,8e-5 -8.702754,4.82329 -8.702833,10.77298 0.001,0.16532 0.0064,0.33053 0.01447,0.49558 v 8.6372 l 15.629017,-15.62902 c -1.588743,-2.59758 -4.105592,-4.27684 -6.940656,-4.27674 z m 6.949969,4.29224 c 0.128297,0.2105 0.251116,0.42648 0.366898,0.64854 -0.115782,-0.22217 -0.238601,-0.43799 -0.366898,-0.64854 z m 0.366898,0.64854 c 0.118639,0.22751 0.230558,0.46087 0.335386,0.6997 -0.104775,-0.23891 -0.216773,-0.47213 -0.335386,-0.6997 z m 0.335386,0.6997 c 0.09943,0.22654 0.191664,0.45853 0.278024,0.69453 -0.08631,-0.23593 -0.178699,-0.46804 -0.278024,-0.69453 z m 0.299217,0.75138 c 0.08102,0.22487 0.15457,0.45455 0.223229,0.68729 -0.06866,-0.23281 -0.142213,-0.46231 -0.223229,-0.68729 z m 0.240798,0.74465 -16.880629,16.88063 v 1.2485 l 17.128173,-17.12815 c -0.06921,-0.34068 -0.152824,-0.67406 -0.247544,-1.00098 z m 0.251142,1.0201 c 0.03717,0.1844 0.06977,0.37114 0.09922,0.55914 -0.02937,-0.18804 -0.06204,-0.37473 -0.09922,-0.55914 z m 0.124037,0.7338 c 0.0205,0.14343 0.03889,0.28774 0.05477,0.43305 -0.01579,-0.14534 -0.03434,-0.2896 -0.05477,-0.43305 z m 0.07543,0.63356 c 0.01283,0.13655 0.02238,0.2743 0.03101,0.41237 -0.0086,-0.13814 -0.01826,-0.27574 -0.03101,-0.41237 z m 0.04498,0.63717 c 0.0076,0.16664 0.01154,0.33472 0.01291,0.50332 -0.0013,-0.16877 -0.0054,-0.33649 -0.01291,-0.50332 z m 0.01497,13.5723 -17.391195,17.39118 v 1.80195 l 17.391195,-5.6379 z"
+       id="path1005-3-9-0-5-3-3"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="D:\jeu\Unity\2019\Evil Olive\Assets\IntroScene\OverMaskMirror.png"
+       inkscape:export-xdpi="100"
+       inkscape:export-ydpi="100" />
+    <path
+       inkscape:connector-curvature="0"
+       style="opacity:1;fill:#d4f5ff;fill-opacity:0.58823529;fill-rule:nonzero;stroke:none;stroke-width:5.54987955;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       d="m 42.867834,150.55196 -15.62991,15.62991 v 4.11154 l 16.88207,-16.88208 c -0.3002,-1.03604 -0.72515,-1.99794 -1.25216,-2.85937 z"
+       id="rect1265-3-7"
+       inkscape:export-filename="D:\jeu\Unity\2019\Evil Olive\Assets\IntroScene\OverMaskMirror.png"
+       inkscape:export-xdpi="100"
+       inkscape:export-ydpi="100" />
+    <path
+       inkscape:connector-curvature="0"
+       style="opacity:1;fill:#d4f5ff;fill-opacity:0.58823529;fill-rule:nonzero;stroke:none;stroke-width:5.54987955;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       d="m 44.366644,154.4134 -17.12872,17.12873 v 15.85878 l 17.39143,-17.39143 v -12.9518 l 5.3e-4,-0.009 c -10e-6,-0.9092 -0.092,-1.79171 -0.26328,-2.6351 z"
+       id="rect1267-6-4"
+       inkscape:export-filename="D:\jeu\Unity\2019\Evil Olive\Assets\IntroScene\OverMaskMirror.png"
+       inkscape:export-xdpi="100"
+       inkscape:export-ydpi="100" />
+    <path
+       style="opacity:1;fill:#9eecff;fill-opacity:0.58823529;fill-rule:nonzero;stroke:none;stroke-width:2.66269612;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       d="m 57.558961,151.86827 c -3.295861,6e-5 -5.968073,3.30725 -5.9681,7.38715 9.79e-4,0.11337 0.0043,0.22685 0.01032,0.34003 v 5.92264 l 10.715624,-10.71615 c -1.089396,-1.78116 -2.81387,-2.93373 -4.757844,-2.93367 z m 4.905137,3.18999 c 0.03453,0.0617 0.07133,0.12143 0.104378,0.18448 -0.03305,-0.0631 -0.06985,-0.12271 -0.104378,-0.18448 z m 0.342609,0.67954 c 0.01863,0.0425 0.03421,0.0872 0.05218,0.13023 -0.01794,-0.043 -0.03358,-0.0878 -0.05218,-0.13023 z m 0.205661,0.51832 c 0.02818,0.0783 0.05204,0.15951 0.07802,0.23926 -0.02601,-0.0798 -0.04982,-0.16084 -0.07802,-0.23926 z m 0.162798,0.50746 -11.573986,11.57397 v 0.85628 l 11.745013,-11.74502 c -0.04741,-0.2335 -0.106125,-0.46115 -0.171027,-0.68523 z m 0.256302,1.18029 c 0.01619,0.11145 0.03024,0.22382 0.04239,0.33693 -0.01206,-0.11312 -0.02625,-0.22548 -0.04239,-0.33693 z m 0.0527,0.44184 c 0.01045,0.10932 0.01881,0.21947 0.02532,0.33021 -0.0065,-0.11074 -0.01495,-0.22089 -0.02532,-0.33021 z m 0.03154,0.43511 c 0.0068,0.14403 0.01135,0.28897 0.01135,0.43512 0,-0.14613 -0.0046,-0.2911 -0.01135,-0.43512 z m 0.01085,9.32243 -11.925379,11.92536 v 1.2356 l 11.925379,-3.86593 z"
+       id="path1005-3-9-0-5-4-86"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="D:\jeu\Unity\2019\Evil Olive\Assets\IntroScene\OverMaskMirror.png"
+       inkscape:export-xdpi="100"
+       inkscape:export-ydpi="100" />
+    <path
+       inkscape:connector-curvature="0"
+       style="opacity:1;fill:#d4f5ff;fill-opacity:0.58823529;fill-rule:nonzero;stroke:none;stroke-width:3.8057375;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       d="m 62.318484,154.80064 -10.71796,10.71796 v 2.81941 l 11.57661,-11.5766 c -0.20586,-0.71044 -0.49726,-1.37006 -0.85865,-1.96077 z"
+       id="rect1265-1-9"
+       inkscape:export-filename="D:\jeu\Unity\2019\Evil Olive\Assets\IntroScene\OverMaskMirror.png"
+       inkscape:export-xdpi="100"
+       inkscape:export-ydpi="100" />
+    <path
+       inkscape:connector-curvature="0"
+       style="opacity:1;fill:#d4f5ff;fill-opacity:0.58823529;fill-rule:nonzero;stroke:none;stroke-width:3.8057375;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       d="m 63.346264,157.44856 -11.74574,11.74574 v 10.87489 l 11.92589,-11.92588 v -8.88148 l 5.3e-4,-0.006 c -1e-5,-0.62346 -0.0631,-1.22863 -0.18055,-1.80697 z"
+       id="rect1267-9-92"
+       inkscape:export-filename="D:\jeu\Unity\2019\Evil Olive\Assets\IntroScene\OverMaskMirror.png"
+       inkscape:export-xdpi="100"
+       inkscape:export-ydpi="100" />
+    <path
+       style="opacity:1;fill:#9eecff;fill-opacity:0.58823529;fill-rule:nonzero;stroke:none;stroke-width:1.66450083;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       d="m 72.090883,157.46793 v 5.2e-4 c -2.060284,3e-5 -3.730492,2.06738 -3.730519,4.6178 7.94e-4,0.0709 0.0032,0.14163 0.0062,0.21239 v 3.70262 l 6.697292,-6.69727 c -0.681169,-1.11347 -1.757679,-1.8361 -2.972964,-1.83606 z m 3.036517,1.94149 c 0.02715,0.0471 0.05487,0.0937 0.08062,0.1421 -0.02577,-0.0484 -0.05345,-0.095 -0.08062,-0.1421 z m 0.220663,0.42839 c 0.01302,0.0289 0.02619,0.0576 0.03876,0.0868 -0.01257,-0.0293 -0.02572,-0.0579 -0.03876,-0.0868 z m 0.163301,0.40721 c 0.0159,0.0452 0.03019,0.0915 0.04495,0.13746 -0.01479,-0.046 -0.02905,-0.0922 -0.04495,-0.13746 z m 0.08887,0.28526 -7.233682,7.23366 v 0.53485 l 7.33859,-7.33857 c -0.03014,-0.14582 -0.06432,-0.28972 -0.104908,-0.42994 z m 0.203094,1.11879 c 0.0015,0.0191 0.0034,0.0382 0.0046,0.0574 -0.0013,-0.0192 -0.0031,-0.0382 -0.0046,-0.0574 z m 0.01807,5.99292 -7.454847,7.45535 v 0.77206 l 7.454847,-2.41691 z"
+       id="path1005-3-9-0-5-6-5"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="D:\jeu\Unity\2019\Evil Olive\Assets\IntroScene\OverMaskMirror.png"
+       inkscape:export-xdpi="100"
+       inkscape:export-ydpi="100" />
+    <path
+       inkscape:connector-curvature="0"
+       style="opacity:1;fill:#d4f5ff;fill-opacity:0.58823529;fill-rule:nonzero;stroke:none;stroke-width:2.37903738;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       d="m 75.066494,159.30128 -6.69999,6.7 v 1.76247 l 7.23675,-7.23675 c -0.12869,-0.44411 -0.31085,-0.85645 -0.53676,-1.22572 z"
+       id="rect1265-0-5"
+       inkscape:export-filename="D:\jeu\Unity\2019\Evil Olive\Assets\IntroScene\OverMaskMirror.png"
+       inkscape:export-xdpi="100"
+       inkscape:export-ydpi="100" />
+    <path
+       inkscape:connector-curvature="0"
+       style="opacity:1;fill:#d4f5ff;fill-opacity:0.58823529;fill-rule:nonzero;stroke:none;stroke-width:2.37903738;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       d="m 75.708974,160.95655 -7.34247,7.34248 v 6.7981 l 7.45509,-7.45509 v -5.55198 l 2.5e-4,-0.004 c -1e-5,-0.38974 -0.0394,-0.76804 -0.11286,-1.12958 z"
+       id="rect1267-69-4"
+       inkscape:export-filename="D:\jeu\Unity\2019\Evil Olive\Assets\IntroScene\OverMaskMirror.png"
+       inkscape:export-xdpi="100"
+       inkscape:export-ydpi="100" />
+    <path
+       style="opacity:1;fill:#9eecff;fill-opacity:0.58823529;fill-rule:nonzero;stroke:none;stroke-width:6.36529541;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       d="m 203.96956,131.37345 c -7.64063,0.33527 -13.75312,8.10377 -13.75317,17.64389 l 5.2e-4,0.015 v 14.95671 l 13.75265,-13.75265 z m 0,25.60257 -13.75265,13.75265 v 2.04742 l 13.75265,-13.75317 z m 0,28.04429 -9.00359,9.00358 3.26647,1.05885 h 5.2e-4 l 5.7366,-0.003 z"
+       id="path1005-3-9-0-5-42-9"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="D:\jeu\Unity\2019\Evil Olive\Assets\IntroScene\OverMaskMirror.png"
+       inkscape:export-xdpi="100"
+       inkscape:export-ydpi="100" />
+    <path
+       style="opacity:1;fill:#d4f5ff;fill-opacity:0.58823529;fill-rule:nonzero;stroke:none;stroke-width:9.09778881;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       d="m 203.96956,150.23638 -13.75317,13.75317 v 6.73964 l 13.75317,-13.75317 z"
+       id="rect1265-8-3"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="D:\jeu\Unity\2019\Evil Olive\Assets\IntroScene\OverMaskMirror.png"
+       inkscape:export-xdpi="100"
+       inkscape:export-ydpi="100" />
+    <path
+       style="opacity:1;fill:#d4f5ff;fill-opacity:0.58823529;fill-rule:nonzero;stroke:none;stroke-width:9.09778881;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       d="m 203.96956,159.02292 -13.75317,13.75369 v 25.99686 l 13.75317,-13.75316 z"
+       id="rect1267-02-0"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="D:\jeu\Unity\2019\Evil Olive\Assets\IntroScene\OverMaskMirror.png"
+       inkscape:export-xdpi="100"
+       inkscape:export-ydpi="100" />
+    <path
+       style="opacity:1;fill:#9eecff;fill-opacity:0.58823529;fill-rule:nonzero;stroke:none;stroke-width:3.8829906;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       d="m 171.27139,146.23244 c -4.80644,-1.6e-4 -8.70286,4.82316 -8.70283,10.77299 v 0.009 9.12399 l 15.62955,-15.62953 c 0.52699,0.86143 0.95191,1.82321 1.25211,2.85925 l -16.88166,16.88166 v 1.24902 l 17.12815,-17.12816 c 0.17129,0.8434 0.26355,1.72579 0.26355,2.63499 l -5e-4,0.009 v 0.48627 c 0.008,-0.16504 0.0125,-0.33026 0.0145,-0.49557 -8e-5,-5.94969 -3.89652,-10.7729 -8.70284,-10.77299 z m 8.68837,23.73395 -14.49422,14.49369 14.49422,4.69895 z"
+       id="path1005-3-9-0-5-3-1-6"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="D:\jeu\Unity\2019\Evil Olive\Assets\IntroScene\OverMaskMirror.png"
+       inkscape:export-xdpi="100"
+       inkscape:export-ydpi="100" />
+    <path
+       inkscape:connector-curvature="0"
+       style="opacity:1;fill:#d4f5ff;fill-opacity:0.58823529;fill-rule:nonzero;stroke:none;stroke-width:5.54987955;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       d="m 178.19813,150.50877 -15.62992,15.62992 v 4.11153 l 16.88208,-16.88207 c -0.3002,-1.03604 -0.72515,-1.99795 -1.25216,-2.85938 z"
+       id="rect1265-3-42-8"
+       inkscape:export-filename="D:\jeu\Unity\2019\Evil Olive\Assets\IntroScene\OverMaskMirror.png"
+       inkscape:export-xdpi="100"
+       inkscape:export-ydpi="100" />
+    <path
+       inkscape:connector-curvature="0"
+       style="opacity:1;fill:#d4f5ff;fill-opacity:0.58823529;fill-rule:nonzero;stroke:none;stroke-width:5.54987955;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       d="m 179.69694,154.37022 -17.12873,17.12872 v 15.85878 l 17.39143,-17.39143 V 157.0145 l 5.3e-4,-0.009 c -1e-5,-0.9092 -0.092,-1.79171 -0.26328,-2.6351 z"
+       id="rect1267-6-3-8"
+       inkscape:export-filename="D:\jeu\Unity\2019\Evil Olive\Assets\IntroScene\OverMaskMirror.png"
+       inkscape:export-xdpi="100"
+       inkscape:export-ydpi="100" />
+    <path
+       style="opacity:1;fill:#9eecff;fill-opacity:0.58823529;fill-rule:nonzero;stroke:none;stroke-width:2.66269612;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       d="m 149.63911,151.82486 v 5.2e-4 c -3.29591,-1.1e-4 -5.96804,3.30712 -5.9681,7.38715 l 5.1e-4,0.006 v 6.25595 l 10.71769,-10.71718 c 0.36139,0.59071 0.65251,1.25016 0.85836,1.96061 l -11.57605,11.57603 v 0.85628 l 11.74554,-11.7445 c 0.11745,0.57834 0.18037,1.18314 0.18037,1.80661 l -5.3e-4,0.006 v 0.33331 c 0.006,-0.11318 0.009,-0.22615 0.0103,-0.33951 -5e-5,-4.0799 -2.67226,-7.38762 -5.96813,-7.38767 z m 5.95779,16.2755 -9.93894,9.93892 9.93894,3.22204 z"
+       id="path1005-3-9-0-5-4-8-1"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="D:\jeu\Unity\2019\Evil Olive\Assets\IntroScene\OverMaskMirror.png"
+       inkscape:export-xdpi="100"
+       inkscape:export-ydpi="100" />
+    <path
+       inkscape:connector-curvature="0"
+       style="opacity:1;fill:#d4f5ff;fill-opacity:0.58823529;fill-rule:nonzero;stroke:none;stroke-width:3.8057375;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       d="m 154.38911,154.75746 -10.71796,10.71795 v 2.81942 l 11.5766,-11.5766 c -0.20585,-0.71045 -0.49726,-1.37006 -0.85864,-1.96077 z"
+       id="rect1265-1-4-0"
+       inkscape:export-filename="D:\jeu\Unity\2019\Evil Olive\Assets\IntroScene\OverMaskMirror.png"
+       inkscape:export-xdpi="100"
+       inkscape:export-ydpi="100" />
+    <path
+       inkscape:connector-curvature="0"
+       style="opacity:1;fill:#d4f5ff;fill-opacity:0.58823529;fill-rule:nonzero;stroke:none;stroke-width:3.8057375;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       d="m 155.41689,157.40538 -11.74574,11.74574 v 10.87489 l 11.92589,-11.92588 v -8.88148 l 5.3e-4,-0.006 c 0,-0.62347 -0.0631,-1.22864 -0.18055,-1.80698 z"
+       id="rect1267-9-9-8"
+       inkscape:export-filename="D:\jeu\Unity\2019\Evil Olive\Assets\IntroScene\OverMaskMirror.png"
+       inkscape:export-xdpi="100"
+       inkscape:export-ydpi="100" />
+    <path
+       style="opacity:1;fill:#9eecff;fill-opacity:0.58823529;fill-rule:nonzero;stroke:none;stroke-width:1.66450083;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       d="m 135.10719,157.42504 c -2.06036,-7e-5 -3.73102,2.06731 -3.73105,4.61781 l 5.3e-4,0.004 v 3.91035 l 6.69933,-6.69933 c 0.2259,0.36927 0.40823,0.78166 0.53692,1.22577 l -7.23625,7.23625 v 0.53537 l 7.34219,-7.34219 c 0.0734,0.36153 0.11263,0.73992 0.11266,1.12965 v 0.004 0.20826 c 0.003,-0.0708 0.005,-0.14149 0.006,-0.21239 -2e-5,-2.55042 -1.67023,-4.61777 -3.73052,-4.61781 z m 3.72433,10.17406 -6.21358,6.21305 6.21358,2.01384 z"
+       id="path1005-3-9-0-5-6-0-3"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="D:\jeu\Unity\2019\Evil Olive\Assets\IntroScene\OverMaskMirror.png"
+       inkscape:export-xdpi="100"
+       inkscape:export-ydpi="100" />
+    <path
+       inkscape:connector-curvature="0"
+       style="opacity:1;fill:#d4f5ff;fill-opacity:0.58823529;fill-rule:nonzero;stroke:none;stroke-width:2.37903738;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       d="m 138.07624,159.2581 -6.7,6.69999 v 1.76247 l 7.23675,-7.23675 c -0.12868,-0.44411 -0.31085,-0.85644 -0.53675,-1.22571 z"
+       id="rect1265-0-2-3"
+       inkscape:export-filename="D:\jeu\Unity\2019\Evil Olive\Assets\IntroScene\OverMaskMirror.png"
+       inkscape:export-xdpi="100"
+       inkscape:export-ydpi="100" />
+    <path
+       inkscape:connector-curvature="0"
+       style="opacity:1;fill:#d4f5ff;fill-opacity:0.58823529;fill-rule:nonzero;stroke:none;stroke-width:2.37903738;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       d="m 138.71872,160.91336 -7.34248,7.34248 v 6.7981 l 7.45509,-7.45509 v -5.55198 l 2.6e-4,-0.004 c -1e-5,-0.38973 -0.0394,-0.76804 -0.11286,-1.12957 z"
+       id="rect1267-69-2-2"
+       inkscape:export-filename="D:\jeu\Unity\2019\Evil Olive\Assets\IntroScene\OverMaskMirror.png"
+       inkscape:export-xdpi="100"
+       inkscape:export-ydpi="100" />
+    <ellipse
+       style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:4.27403736;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       id="path875-8-0"
+       cx="-74.863068"
+       cy="217.91718"
+       rx="10.820273"
+       ry="18.299812"
+       inkscape:export-filename="D:\jeu\Unity\2019\Evil Olive\Assets\IntroScene\EvilOliveReflexionLeft.png"
+       inkscape:export-xdpi="100"
+       inkscape:export-ydpi="100"
+       transform="matrix(-0.98905526,0.14754554,0.11501434,0.99336383,0,0)" />
+    <path
+       style="opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;stroke:#040000;stroke-width:1.1837213;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       d="m 112.22861,197.84771 c -1.75872,-0.37852 -2.32843,-1.28587 -3.28672,3.0643 l 4.71824,16.96951 c -5.2412,4.99121 -5.14657,11.39148 -11.67177,12.42712 -6.539352,0.9133 -11.841642,0.57333 -18.041012,-2.71109 l 4.65065,-26.85298 -5.81516,-5.38794 8.08046,1.63795 7.326709,0.50817 7.144473,-1.0658 z"
+       id="path877-1-3"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccccccccc"
+       inkscape:export-filename="D:\jeu\Unity\2019\Evil Olive\Assets\IntroScene\EvilOliveReflexionLeft.png"
+       inkscape:export-xdpi="100"
+       inkscape:export-ydpi="100" />
   </g>
 </svg>
