@@ -69,6 +69,7 @@
     <Compile Include="Assets\Scripts\Reflexion.cs" />
     <Compile Include="Assets\Scripts\SceneTransition.cs" />
     <Compile Include="Assets\Scripts\ThunderLight.cs" />
+    <Compile Include="Assets\Sounds\EmptyScript.cs" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>D:/BasicsGameDev/EvilOlive/Evil-Olive/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
