@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: c0a9084f5a7061e45a0188f2666009c7
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 90
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: ODINS SPEAR RAGGED HOLLOW
+  fontNames:
+  - ODINS SPEAR RAGGED HOLLOW
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
