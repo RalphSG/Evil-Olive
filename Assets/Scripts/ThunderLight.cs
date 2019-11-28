@@ -79,7 +79,7 @@ public class ThunderLight : MonoBehaviour
     IEnumerator lightningFlickering2()
     {
         randlight2 = Random.Range(15, 20);
-        for (int i = 0; i < randlight1; i++)
+        for (int i = 0; i < randlight2; i++)
         {
             randPourcent = Random.Range(0, 100);
             globalLight2.intensity = ((maxGlobalFlickerInt - minGlobalFlickerInt) * randPourcent * 0.01f) + minGlobalFlickerInt;
@@ -112,7 +112,7 @@ public class ThunderLight : MonoBehaviour
                 break;
         }
         randlight3 = Random.Range(15, 20);
-        for (int i = 0; i < randlight1; i++)
+        for (int i = 0; i < randlight3; i++)
         {
             randPourcent = Random.Range(0, 100);
             globalLight3.intensity = ((maxGlobalFlickerInt - minGlobalFlickerInt) * randPourcent * 0.01f) + minGlobalFlickerInt;

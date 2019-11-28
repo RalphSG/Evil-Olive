@@ -62,13 +62,17 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\CircleRendererMR.cs" />
+    <Compile Include="Assets\Scripts\CircleRendererPM.cs" />
     <Compile Include="Assets\Scripts\FirelightFlickering.cs" />
     <Compile Include="Assets\Scripts\Line_Graph.cs" />
     <Compile Include="Assets\Scripts\Line_PlayerMirror.cs" />
     <Compile Include="Assets\Scripts\PlayerController.cs" />
     <Compile Include="Assets\Scripts\Reflexion.cs" />
     <Compile Include="Assets\Scripts\SceneTransition.cs" />
+    <Compile Include="Assets\Scripts\TestLineRend.cs" />
     <Compile Include="Assets\Scripts\ThunderLight.cs" />
+    <Compile Include="Assets\Scripts\ThunderLightningLevels.cs" />
     <Compile Include="Assets\Sounds\EmptyScript.cs" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>D:/jeu/Unity/2019/Evil Olive/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
