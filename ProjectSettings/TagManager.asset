@@ -12,6 +12,7 @@ TagManager:
   - ReflexionChild
   - ColliderPM
   - ColliderMR
+  - Puff
   layers:
   - Default
   - TransparentFX

@@ -16,6 +16,7 @@ public class PlayerController : MonoBehaviour
 
     Rigidbody rb;
     Animator anim;
+    ParticleSystem puff;
 
     // Start is called before the first frame update
     void Start()
@@ -24,6 +25,7 @@ public class PlayerController : MonoBehaviour
         reflexionChild = reflexion.gameObject.GetComponent<Reflexion>();
         rb = GetComponent<Rigidbody>();
         anim = GetComponent<Animator>();
+        puff = GameObject.FindGameObjectWithTag("Puff").GetComponent<ParticleSystem>();
     }
 
     // Update is called once per frame
@@ -73,9 +75,8 @@ public class PlayerController : MonoBehaviour
         transform.position = reflexion.transform.position;
         transform.rotation = reflexion.transform.rotation;
         anim.SetBool("isWarping", true);
+        puff.Play();
         yield return new WaitForSeconds(0.9f);
-        anim.SetBool("isWarping", false);
-        //rb.constraints = RigidbodyConstraints.
-        
+        anim.SetBool("isWarping", false);     
     }
 }
