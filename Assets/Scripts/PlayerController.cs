@@ -29,34 +29,53 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update() {
 
-        //walking controller
-        Vector2 input = new Vector2(-Input.GetAxisRaw("Vertical"), Input.GetAxisRaw("Horizontal"));
-        Vector2 inputDir = input.normalized;
-
-        if (inputDir != Vector2.zero)
+        if (!anim.GetBool("isWarping"))
         {
-            float targetRotation = Mathf.Atan2(inputDir.x, inputDir.y) * Mathf.Rad2Deg;
-            transform.eulerAngles = Vector3.up * Mathf.SmoothDampAngle(transform.eulerAngles.y, targetRotation, ref turnSmoothVelocity, turnSmoothTime);
-        }
+            Vector2 input = new Vector2(-Input.GetAxisRaw("Vertical"), Input.GetAxisRaw("Horizontal"));
+            Vector2 inputDir = input.normalized;
 
-        float targetSpeed = speed * inputDir.magnitude;
-        currentSpeed = Mathf.SmoothDamp(currentSpeed, targetSpeed, ref speedSmoothVelocity, speedSmoothTime);
-
-        transform.Translate(transform.forward * currentSpeed * Time.deltaTime, Space.World);
-
-        //float moveVertical = Input.GetAxis("Vertical");
-        //float moveHorizontal = Input.GetAxis("Horizontal");
-
-        //Vector3 newPosition = new Vector3(-moveVertical, 0.0f, moveHorizontal);
-        //transform.LookAt(newPosition + transform.position);
-        //transform.Translate(newPosition * speed * Time.deltaTime, Space.World);
-
-        //warping controller
-        if (reflexionChild.isActive) {
-            if (Input.GetKeyDown("space"))
+            // Walking animation trigger
+            if (Input.GetAxisRaw("Vertical") != 0 || Input.GetAxisRaw("Horizontal") != 0)
             {
-                transform.position = reflexion.transform.position;
+                anim.SetBool("isWalking", true);
+            }
+            else
+            {
+                anim.SetBool("isWalking", false);
+            }
+
+            if (inputDir != Vector2.zero)
+            {
+                float targetRotation = Mathf.Atan2(inputDir.x, inputDir.y) * Mathf.Rad2Deg;
+                transform.eulerAngles = Vector3.up * Mathf.SmoothDampAngle(transform.eulerAngles.y, targetRotation, ref turnSmoothVelocity, turnSmoothTime);
+            }
+
+            // Walking controller
+            float targetSpeed = speed * inputDir.magnitude;
+            currentSpeed = Mathf.SmoothDamp(currentSpeed, targetSpeed, ref speedSmoothVelocity, speedSmoothTime);
+
+            transform.Translate(transform.forward * currentSpeed * Time.deltaTime, Space.World);
+
+            //warping controller
+            if (reflexionChild.isActive)
+            {
+                if (Input.GetKeyDown("space"))
+                {
+                    StartCoroutine(Warping());
+                }
             }
         }
+    }
+
+    IEnumerator Warping()
+    {
+        currentSpeed = 0;
+        transform.position = reflexion.transform.position;
+        transform.rotation = reflexion.transform.rotation;
+        anim.SetBool("isWarping", true);
+        yield return new WaitForSeconds(0.9f);
+        anim.SetBool("isWarping", false);
+        //rb.constraints = RigidbodyConstraints.
+        
     }
 }
