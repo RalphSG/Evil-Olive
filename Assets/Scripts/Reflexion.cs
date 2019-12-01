@@ -48,7 +48,7 @@ public class Reflexion : MonoBehaviour
 
     void Update()
     {
-        //movement of reflexion
+        // Movement of reflexion
         playerX = player.transform.position.x;
         playerZ = player.transform.position.z;
         mirrorRot = mirror.transform.localEulerAngles.y;

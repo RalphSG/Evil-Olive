@@ -13,6 +13,7 @@ TagManager:
   - ColliderPM
   - ColliderMR
   - Puff
+  - SceneManager
   layers:
   - Default
   - TransparentFX
