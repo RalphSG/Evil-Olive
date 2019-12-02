@@ -55,23 +55,20 @@ public class Line_PlayerMirror : MonoBehaviour
     }
     private void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.tag == "Wall")
-        {
+        
             reflexionChild.isActive = false;
-        }
+        
     }
     private void OnTriggerStay(Collider other)
     {
-        if (other.gameObject.tag == "Wall")
-        {
+        
             reflexionChild.isActive = false;
-        }
+        
     }
     private void OnTriggerExit(Collider other)
     {
-        if (other.gameObject.tag == "Wall")
-        {
-            reflexionChild.isActive = false;
-        }
+       
+            reflexionChild.isActive = true;
+        
     }
 }
