@@ -8,8 +8,9 @@ public class SceneTransition : MonoBehaviour
 {
     public Animator transitionAnim;
     public string sceneName1;
+    public string sceneName2;
 
-    public void NewGame()
+    public void LoadNextScene()
     {
         StartCoroutine(LoadScene1());
     }
@@ -21,12 +22,24 @@ public class SceneTransition : MonoBehaviour
         SceneManager.LoadScene(sceneName1);
     }
 
-    public void Quit()
+    public void LoadMenu()
     {
-        StartCoroutine(LoadScene4());
+        StartCoroutine(LoadScene2());
     }
 
-    IEnumerator LoadScene4()
+    IEnumerator LoadScene2()
+    {
+        transitionAnim.SetTrigger("end");
+        yield return new WaitForSeconds(1.5f);
+        SceneManager.LoadScene(sceneName2);
+    }
+
+    public void Quit()
+    {
+        StartCoroutine(QuitGame());
+    }
+
+    IEnumerator QuitGame()
     {
         transitionAnim.SetTrigger("end");
         yield return new WaitForSeconds(1.5f);

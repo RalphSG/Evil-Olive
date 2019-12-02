@@ -10,11 +10,11 @@ public class FirelightFlickering : MonoBehaviour
  
     private int randomizer = 0;
 
-    private Light light;
+    private Light light1;
 
     public void Start()
     {
-        light = GetComponent<Light>();
+        light1 = gameObject.GetComponent<Light>();
         StartCoroutine("lightFlickering");
     }
 
@@ -23,10 +23,10 @@ public class FirelightFlickering : MonoBehaviour
         {
             if (randomizer == 0)
             {
-                light.intensity = (Random.Range(minFlickerIntensity, maxFlickerIntensity));
+                light1.intensity = (Random.Range(minFlickerIntensity, maxFlickerIntensity));
 
             }
-            else light.intensity = (Random.Range(minFlickerIntensity, maxFlickerIntensity));
+            else light1.intensity = (Random.Range(minFlickerIntensity, maxFlickerIntensity));
 
             randomizer = Random.Range(0, 1);
             yield return new WaitForSeconds(flickerSpeed);
