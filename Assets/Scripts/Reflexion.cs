@@ -10,6 +10,10 @@ public class Reflexion : MonoBehaviour
     public float playerX;
     public float playerZ;
 
+    public Renderer materialColor;
+    Color reflexionOn = new Color(0f, 0.7230554f, 1f, 0f);
+    Color reflexionOff = new Color(0f, 0.624114f, 1f, 0f);
+
     public GameObject mirror;
     public float mirrorX;
     public float mirrorZ;
@@ -77,7 +81,9 @@ public class Reflexion : MonoBehaviour
     {
         foreach (Transform child in transform)
         {
-            child.gameObject.SetActive(false);
+            //child.gameObject.SetActive(false);
+            materialColor = child.gameObject.GetComponent<Renderer>();
+            materialColor.material.SetColor("_EmissionColor", reflexionOff);
         }
 
         isActive = false;
@@ -86,7 +92,9 @@ public class Reflexion : MonoBehaviour
     {
         foreach (Transform child in transform)
         {
-            child.gameObject.SetActive(false);
+            //child.gameObject.SetActive(false);
+            materialColor = child.gameObject.GetComponent<Renderer>();
+            materialColor.material.SetColor("_EmissionColor", reflexionOff);
         }
 
         isActive = false;
@@ -96,7 +104,9 @@ public class Reflexion : MonoBehaviour
     {
         foreach (Transform child in transform)
         {
-            child.gameObject.SetActive(true);
+            //child.gameObject.SetActive(true);
+            materialColor = child.gameObject.GetComponent<Renderer>();
+            materialColor.material.SetColor("_EmissionColor", reflexionOn);
         }
 
         isActive = true;

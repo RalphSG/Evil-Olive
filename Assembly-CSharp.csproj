@@ -80,6 +80,8 @@
     <Compile Include="Assets\Scripts\ThunderLight.cs" />
     <Compile Include="Assets\Scripts\ThunderLightningLevels.cs" />
     <Compile Include="Assets\Sounds\EmptyScript.cs" />
+    <None Include="Assets\Materials\StencilShaderRead.shader" />
+    <None Include="Assets\Materials\StencilShaderWrite.shader" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>D:/jeu/Unity/2019/Evil Olive/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
