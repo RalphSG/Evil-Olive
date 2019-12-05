@@ -33,6 +33,8 @@ public class CircleRendererMR : MonoBehaviour
         lineRend.useWorldSpace = false;
 
         CreatePoints();
+
+        gameObject.transform.localEulerAngles = new Vector3(gameObject.transform.localEulerAngles.x, mirror.transform.localEulerAngles.y - 180f, gameObject.transform.localEulerAngles.z);
     }
 
 

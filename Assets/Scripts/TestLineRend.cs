@@ -12,6 +12,8 @@ public class TestLineRend : MonoBehaviour
     private Vector3 lineEnd;
     public LineRenderer lineRendererPM;
     public LineRenderer lineRendererMR;
+    public GameObject lineRendPMObject;
+    public GameObject lineRendMRObject;
 
     GameObject reflexion;
     Reflexion reflexionChild;
@@ -63,6 +65,11 @@ public class TestLineRend : MonoBehaviour
             lineRendererPM.endColor = new Color(0, 0.8652894f, 1, 0.1f);
             lineRendererMR.startColor = new Color(0, 0.8652894f, 1, 0.1f);
             lineRendererMR.endColor = new Color(0, 0.8652894f, 1, 0.1f);
+        }
+
+        if (!reflexionChild.isFrontMirror)
+        {
+            lineRendererMR.isVisible = false;
         }
 
         lineStart = new Vector3(playerTrans.position.x, playerTrans.position.y + 2f, playerTrans.position.z);

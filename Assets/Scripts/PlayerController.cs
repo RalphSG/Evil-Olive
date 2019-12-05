@@ -66,7 +66,7 @@ public class PlayerController : MonoBehaviour
                 transform.Translate(transform.forward * currentSpeed * Time.deltaTime, Space.World);
 
                 //warping controller
-                if (reflexionChild.isActive)
+                if (reflexionChild.isActive && reflexionChild.isFrontMirror)
                 {
                     if (Input.GetKeyDown("space"))
                     {
