@@ -12,12 +12,18 @@ public class CircleRendererMR : MonoBehaviour
     GameObject reflexion;
     Reflexion reflexionChild;
 
+    GameObject mirror;
+
     void Start()
     {
         lineRend = gameObject.GetComponent<LineRenderer>();
 
         reflexion = GameObject.FindGameObjectWithTag("Reflexion");
         reflexionChild = reflexion.gameObject.GetComponent<Reflexion>();
+
+        mirror = GameObject.FindGameObjectWithTag("Mirror");
+
+        gameObject.transform.position = new Vector3(mirror.transform.position.x, 2.3f, mirror.transform.position.z);
     }
 
     private void Update()
