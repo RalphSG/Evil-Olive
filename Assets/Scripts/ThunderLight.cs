@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Audio;
 
 public class ThunderLight : MonoBehaviour
 {
@@ -33,28 +34,39 @@ public class ThunderLight : MonoBehaviour
     public void Start()
     {
         StartCoroutine("initiateLightning");
+        
+
     }
 
     IEnumerator initiateLightning()
     {
+       
         while (true)
         {
+            
             randInitiation = Random.Range(1, 4);
             switch (randInitiation)
             {
                 case 1:
                     StartCoroutine("lightningFlickering1");
+                    FindObjectOfType<audiomanager>().Play("Thunder");
+
                     break;
                 case 2:
                     StartCoroutine("lightningFlickering2");
+                    FindObjectOfType<audiomanager>().Play("Thunder");
+
                     break;
                 case 3:
                     StartCoroutine("lightningFlickering3");
+                    FindObjectOfType<audiomanager>().Play("Thunder");
+
                     break;
                 default:
                     break;
             }
             randInitiation = Random.Range(0, 6);
+            
             yield return new WaitForSeconds(randInitiation);
         }
     }
@@ -62,7 +74,7 @@ public class ThunderLight : MonoBehaviour
     IEnumerator lightningFlickering1()
     {
         lightning3.Play();
-
+        
         randlight1 = Random.Range(15,20);
         for (int i = 0; i < randlight1; i++)
         {
@@ -73,6 +85,7 @@ public class ThunderLight : MonoBehaviour
         }
         light1.intensity = 0;
         globalLight1.intensity = 0;
+        
         lightning3.Stop();
     }
 
@@ -88,6 +101,7 @@ public class ThunderLight : MonoBehaviour
         }
         light2.intensity = 0;
         globalLight2.intensity = 0;
+        
     }
 
     IEnumerator lightningFlickering3()
@@ -121,6 +135,7 @@ public class ThunderLight : MonoBehaviour
         }
         light3.intensity = 0;
         globalLight3.intensity = 0;
+        
         lightning1.Stop();
         lightning2.Stop();
         lightning4.Stop();

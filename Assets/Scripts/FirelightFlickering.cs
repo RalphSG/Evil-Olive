@@ -14,8 +14,10 @@ public class FirelightFlickering : MonoBehaviour
 
     public void Start()
     {
+        
         light1 = gameObject.GetComponent<Light>();
         StartCoroutine("lightFlickering");
+        FindObjectOfType<audiomanager>().Play("Torch");
     }
 
     IEnumerator lightFlickering() {
