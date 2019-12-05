@@ -32,6 +32,8 @@ public class Reflexion : MonoBehaviour
     public float aNormal;
     public float bNormal;
 
+    public float anglePM;
+
     // Distance Player-Mirror, Player-Reflection and angle of insidence
     public float lengthPM;
     public float lengthPR;
@@ -75,6 +77,30 @@ public class Reflexion : MonoBehaviour
         lengthPM = Mathf.Sqrt(Mathf.Pow(playerX - mirrorX, 2) + Mathf.Pow(playerZ - mirrorZ, 2));
         lengthPR = Mathf.Sqrt(Mathf.Pow(playerX - targetX, 2) + Mathf.Pow(playerZ - targetZ, 2));
         angleInci = Mathf.RoundToInt(Mathf.Rad2Deg*(Mathf.Asin(((Mathf.Deg2Rad*lengthPR) / 2) / (Mathf.Deg2Rad*lengthPM))));
+
+        // Is the player behind the mirror or in front (in order to block warping if behind)
+        anglePM = Mathf.Rad2Deg * (Mathf.Atan((mirrorZ - playerZ) / (mirrorX - playerX)));
+        if (playerX < mirrorX)
+        {
+            if (((anglePM - 179f) < (146 - mirrorRot)) && ((146 - mirrorRot) < (anglePM - 1)))
+            {
+                isActive = true;
+            }
+            else {
+                isActive = false;
+            }
+        }
+        if (mirrorX <= playerX)
+        {
+            if (((anglePM + 179f) > (146 - mirrorRot)) && ((146 - mirrorRot) > (anglePM - 1)))
+            {
+                isActive = true;
+            }
+            else
+            {
+                isActive = false;
+            }
+        }
     }
 
     private void OnTriggerEnter(Collider other)
