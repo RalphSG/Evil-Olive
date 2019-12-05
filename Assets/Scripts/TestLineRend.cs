@@ -14,9 +14,11 @@ public class TestLineRend : MonoBehaviour
     public LineRenderer lineRendererMR;
     public GameObject lineRendPMObject;
     public GameObject lineRendMRObject;
+    public GameObject circleAnglePMObject;
+    public GameObject circleAngleMRObject;
 
-    GameObject reflexion;
-    Reflexion reflexionChild;
+    Reflexion reflexion;
+    GameObject reflexionChild;
 
     CapsuleCollider capsulePM;
     CapsuleCollider capsuleMR;
@@ -29,11 +31,15 @@ public class TestLineRend : MonoBehaviour
         mirrorTrans = GameObject.FindGameObjectWithTag("Mirror").transform;
         reflexionTrans = GameObject.FindGameObjectWithTag("ReflexionChild").transform;
 
-        reflexion = GameObject.FindGameObjectWithTag("Reflexion");
-        reflexionChild = reflexion.gameObject.GetComponent<Reflexion>();
+        reflexion = GameObject.FindGameObjectWithTag("Reflexion").GetComponent<Reflexion>();
+        reflexionChild = GameObject.FindGameObjectWithTag("ReflexionChild");
 
         lineRendererPM = GameObject.FindGameObjectWithTag("LinePM").GetComponent<LineRenderer>();
         lineRendererMR = GameObject.FindGameObjectWithTag("LineMR").GetComponent<LineRenderer>();
+        lineRendPMObject = GameObject.FindGameObjectWithTag("LinePM");
+        lineRendMRObject = GameObject.FindGameObjectWithTag("LineMR");
+        circleAnglePMObject = GameObject.FindGameObjectWithTag("CirclePM");
+        circleAngleMRObject = GameObject.FindGameObjectWithTag("CircleMR");
 
         // Create capsule colliders for each line
         capsulePM = GameObject.FindGameObjectWithTag("ColliderPM").GetComponent<CapsuleCollider>();
@@ -52,7 +58,7 @@ public class TestLineRend : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (reflexionChild.isActive)
+        if (reflexion.isActive)
         {
             lineRendererPM.startColor = new Color(0, 0.8652894f, 1, 1);
             lineRendererPM.endColor = new Color(0, 0.8652894f, 1, 1);
@@ -67,9 +73,21 @@ public class TestLineRend : MonoBehaviour
             lineRendererMR.endColor = new Color(0, 0.8652894f, 1, 0.1f);
         }
 
-        if (!reflexionChild.isFrontMirror)
+        if (!reflexion.isFrontMirror)
         {
-            //lineRendererMR.isVisible = false;
+            lineRendMRObject.SetActive(false);
+            lineRendPMObject.SetActive(false);
+            circleAnglePMObject.SetActive(false);
+            circleAngleMRObject.SetActive(false);
+            reflexionChild.gameObject.SetActive(false);
+        }
+        else
+        {
+            lineRendMRObject.SetActive(true);
+            lineRendPMObject.SetActive(true);
+            circleAnglePMObject.SetActive(true);
+            circleAngleMRObject.SetActive(true);
+            reflexionChild.gameObject.SetActive(true);
         }
 
         lineStart = new Vector3(playerTrans.position.x, playerTrans.position.y + 2f, playerTrans.position.z);

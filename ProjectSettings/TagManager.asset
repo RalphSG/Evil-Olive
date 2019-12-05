@@ -16,6 +16,8 @@ TagManager:
   - SceneManager
   - Range
   - Button
+  - CirclePM
+  - CircleMR
   layers:
   - Default
   - TransparentFX
