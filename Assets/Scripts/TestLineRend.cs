@@ -69,7 +69,7 @@ public class TestLineRend : MonoBehaviour
 
         if (!reflexionChild.isFrontMirror)
         {
-            lineRendererMR.isVisible = false;
+            //lineRendererMR.isVisible = false;
         }
 
         lineStart = new Vector3(playerTrans.position.x, playerTrans.position.y + 2f, playerTrans.position.z);
