@@ -85,7 +85,7 @@ public class PlayerController : MonoBehaviour
 
 
                 //warping controller
-                if (reflexionChild.isActive)
+                if (reflexionChild.isActive && reflexionChild.isFrontMirror)
                 {
                     if (Input.GetKeyDown("space"))
                     {

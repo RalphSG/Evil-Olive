@@ -40,6 +40,7 @@ public class Reflexion : MonoBehaviour
     public int angleInci;
 
     public bool isActive;
+    public bool isFrontMirror;
 
     void Start()
     {
@@ -58,7 +59,6 @@ public class Reflexion : MonoBehaviour
         playerX = player.transform.position.x;
         playerZ = player.transform.position.z;
         mirrorRot = mirror.transform.localEulerAngles.y;
-        //mirrorRot = (mirrorRot > 180) ? mirrorRot - 360 : mirrorRot;
 
         // Find all the variables of the equation ax+b=z describing the line following the mirror
         bMirror = mirrorZ - (Mathf.Tan(Mathf.Deg2Rad * (146 - mirrorRot)) * mirrorX);
@@ -86,21 +86,21 @@ public class Reflexion : MonoBehaviour
         {
             if (((anglePM - 179f) < (146 - mirrorRot)) && ((146 - mirrorRot) < (anglePM - 1)))
             {
-                isActive = true;
+                isFrontMirror = true;
             }
             else {
-                isActive = false;
+                isFrontMirror = false;
             }
         }
         if (mirrorX <= playerX)
         {
             if (((anglePM + 179f) > (146 - mirrorRot)) && ((146 - mirrorRot) > (anglePM - 1)))
             {
-                isActive = true;
+                isFrontMirror = true;
             }
             else
             {
-                isActive = false;
+                isFrontMirror = false;
             }
         }
     }
