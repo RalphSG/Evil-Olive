@@ -15,6 +15,7 @@ TagManager:
   - Puff
   - SceneManager
   - Range
+  - Button
   layers:
   - Default
   - TransparentFX

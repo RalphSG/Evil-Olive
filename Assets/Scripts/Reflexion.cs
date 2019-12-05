@@ -58,11 +58,13 @@ public class Reflexion : MonoBehaviour
         playerX = player.transform.position.x;
         playerZ = player.transform.position.z;
         mirrorRot = mirror.transform.localEulerAngles.y;
+        //mirrorRot = (mirrorRot > 180) ? mirrorRot - 360 : mirrorRot;
+
         // Find all the variables of the equation ax+b=z describing the line following the mirror
         bMirror = mirrorZ - (Mathf.Tan(Mathf.Deg2Rad * (146 - mirrorRot)) * mirrorX);
 
         // Find all the variables of the equation ax+b=z describing the line normal to the mirror
-        aNormal = -1 / (Mathf.Tan(Mathf.Deg2Rad * (146 - mirrorRot)));
+        aNormal = -1 / (Mathf.Tan(Mathf.Deg2Rad * (146 -mirrorRot)));
         bNormal = mirrorZ - (aNormal * mirrorX);
 
         multiplier = (-2 * ((aNormal) * playerX - playerZ + bNormal))/(Mathf.Pow((aNormal), 2) + 1);
