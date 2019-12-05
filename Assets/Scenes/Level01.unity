@@ -14074,11 +14074,9 @@ Transform:
   m_Children:
   - {fileID: 1644397540}
   m_Father: {fileID: 0}
-<<<<<<< HEAD
+
   m_RootOrder: 13
-=======
-  m_RootOrder: 11
->>>>>>> f502f902770f4e33ac909d3e140accec8f263142
+
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!114 &1388433411
 MonoBehaviour:
