@@ -67,10 +67,10 @@ public class TestLineRend : MonoBehaviour
             lineRendererMR.endColor = new Color(0, 0.8652894f, 1, 0.1f);
         }
 
-        if (!reflexionChild.isFrontMirror)
-        {
-            lineRendererMR.isVisible = false;
-        }
+        //if (!reflexionChild.isFrontMirror)
+        //{
+        //    lineRendererMR.isVisible = false;
+        //}
 
         lineStart = new Vector3(playerTrans.position.x, playerTrans.position.y + 2f, playerTrans.position.z);
         lineMiddle = new Vector3(mirrorTrans.position.x, mirrorTrans.position.y + 2f, mirrorTrans.position.z);

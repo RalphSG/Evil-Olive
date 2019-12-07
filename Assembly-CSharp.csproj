@@ -63,6 +63,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\audiomanager.cs" />
+    <Compile Include="Assets\HandleScript.cs" />
     <Compile Include="Assets\Scripts\AngleNumber.cs" />
     <Compile Include="Assets\Scripts\CircleRendererMR.cs" />
     <Compile Include="Assets\Scripts\CircleRendererPM.cs" />
