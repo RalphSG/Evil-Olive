@@ -66,6 +66,7 @@
     <Compile Include="Assets\Scripts\AngleNumber.cs" />
     <Compile Include="Assets\Scripts\CircleRendererMR.cs" />
     <Compile Include="Assets\Scripts\CircleRendererPM.cs" />
+    <Compile Include="Assets\Scripts\CreditsTextAndLine.cs" />
     <Compile Include="Assets\Scripts\EscapeMenu.cs" />
     <Compile Include="Assets\Scripts\Exit.cs" />
     <Compile Include="Assets\Scripts\FaceCamera.cs" />
