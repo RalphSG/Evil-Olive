@@ -133,7 +133,7 @@ GameObject:
   - component: {fileID: 7839668}
   m_Layer: 0
   m_Name: CircleAnglePM
-  m_TagString: Untagged
+  m_TagString: CirclePM
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1386,7 +1386,7 @@ GameObject:
   - component: {fileID: 203024721}
   m_Layer: 0
   m_Name: CircleAngleMR
-  m_TagString: Untagged
+  m_TagString: CircleMR
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12387,7 +12387,7 @@ MonoBehaviour:
   speedSmoothTime: 0.2
   turnSmoothTime: 0.2
   isExiting: 0
-  IsMoving: 0
+  isMoving: 0
   startPoint: {fileID: 1911296130}
 --- !u!54 &1202919197
 Rigidbody:
@@ -17237,6 +17237,7 @@ MonoBehaviour:
   lineRendererMR: {fileID: 0}
   lineRendPMObject: {fileID: 0}
   lineRendMRObject: {fileID: 0}
+
 --- !u!4 &1890094301 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -4216859302048453862, guid: 0bb8465d332620542a8366dd5a526cc9,
@@ -17312,6 +17313,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 585d16282634def45a89e7bcb9cf6ef4, type: 3}
+
+  circleAnglePMObject: {fileID: 0}
+  circleAngleMRObject: {fileID: 0}
+
 --- !u!1001 &1895988131
 PrefabInstance:
   m_ObjectHideFlags: 0

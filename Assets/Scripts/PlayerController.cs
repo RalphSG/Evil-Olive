@@ -13,7 +13,7 @@ public class PlayerController : MonoBehaviour
     float turnSmoothVelocity;
 
     public bool isExiting;
-    public bool IsMoving;
+    public bool isMoving;
 
     GameObject reflexion;
     Reflexion reflexionChild;
@@ -53,14 +53,14 @@ public class PlayerController : MonoBehaviour
                 {
                     
                     anim.SetBool("isWalking", true);
-                    IsMoving = true;
+                    isMoving = true;
 
                 }
                 else
                 {
                     anim.SetBool("isWalking", false);
 
-                    IsMoving = false;
+                    isMoving = false;
                 }
                
           
@@ -77,7 +77,7 @@ public class PlayerController : MonoBehaviour
 
                 transform.Translate(transform.forward * currentSpeed * Time.deltaTime, Space.World);
 
-                if (IsMoving == true)
+                if (isMoving == true)
                 {
                     FindObjectOfType<audiomanager>().Play("Walking");
                 }
