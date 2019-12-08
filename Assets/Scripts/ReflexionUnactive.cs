@@ -14,11 +14,11 @@ public class ReflexionUnactive : MonoBehaviour
         reflexionChild = GameObject.FindGameObjectWithTag("ReflexionChild");
     }
 
-    private void Update()
-    {
-        reflexionChild.gameObject.SetActive(true);
-        reflexion.isActive = true;
-    }
+    //private void Update()
+    //{
+    //    reflexionChild.gameObject.SetActive(true);
+    //    reflexion.isActive = true;
+    //}
 
     private void OnTriggerEnter(Collider other)
     {
@@ -38,12 +38,12 @@ public class ReflexionUnactive : MonoBehaviour
         }
     }
 
-    //private void OnTriggerExit(Collider other)
-    //{
-    //    if (other.tag == "Wall")
-    //    {
-    //        reflexionChild.gameObject.SetActive(true);
-    //        reflexion.isActive = true;
-    //    }
-    //}
+    private void OnTriggerExit(Collider other)
+    {
+        if (other.tag == "Wall")
+        {
+            reflexionChild.gameObject.SetActive(true);
+            reflexion.isActive = true;
+        }
+    }
 }
