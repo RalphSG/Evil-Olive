@@ -4,33 +4,49 @@ using UnityEngine;
 
 public class CircleRendererPM : MonoBehaviour
 {
-    private int segments;
+    private int segmentsPM;
     public float xRadius;
     public float zRadius;
-    LineRenderer lineRend;
+    LineRenderer lineRendPM;
 
-    GameObject reflexion;
-    Reflexion reflexionChild;
+    Reflexion reflexion;
 
-    GameObject mirror;
+    public GameObject[] mirrors;
+    public GameObject mirror;
+    public int currentNumMirrors;
 
     void Start()
     {
-        lineRend = gameObject.GetComponent<LineRenderer>();
+        lineRendPM = GameObject.FindGameObjectWithTag("CirclePM").GetComponent<LineRenderer>();
 
-        reflexion = GameObject.FindGameObjectWithTag("Reflexion");
-        reflexionChild = reflexion.gameObject.GetComponent<Reflexion>();
+        reflexion = GameObject.FindGameObjectWithTag("Reflexion").GetComponent<Reflexion>();
 
-        mirror = GameObject.FindGameObjectWithTag("Mirror");
+        mirrors = GameObject.FindGameObjectsWithTag("Mirror");
+        currentNumMirrors = 0;
+        mirror = mirrors[currentNumMirrors];
 
         gameObject.transform.position = new Vector3(mirror.transform.position.x, 2.3f, mirror.transform.position.z);
     }
 
     private void Update()
     {
-        segments = reflexionChild.angleInci;
-        lineRend.positionCount = (segments + 1);
-        lineRend.useWorldSpace = false;
+        // Selection of the used mirror
+        if (Input.GetKeyDown(KeyCode.Tab))
+        {
+            currentNumMirrors++;
+            if (currentNumMirrors == mirrors.Length)
+            {
+                currentNumMirrors = 0;
+            }
+
+            mirror = mirrors[currentNumMirrors];
+
+            gameObject.transform.position = new Vector3(mirror.transform.position.x, 2.3f, mirror.transform.position.z);
+        }
+
+        segmentsPM = reflexion.angleInci;
+        lineRendPM.positionCount = (segmentsPM + 1);
+        lineRendPM.useWorldSpace = false;
 
         CreatePoints();
 
@@ -46,12 +62,12 @@ public class CircleRendererPM : MonoBehaviour
 
         float angle = 214f; // 214 = 180 + 34 (for the static mirror)
 
-        for (int i = 0; i < (segments + 1); i++)
+        for (int i = 0; i < (segmentsPM + 1); i++)
         {
             x = Mathf.Sin(Mathf.Deg2Rad * angle) * xRadius;
             z = Mathf.Cos(Mathf.Deg2Rad * angle) * zRadius;
 
-            lineRend.SetPosition(i, new Vector3(x, y, z));
+            lineRendPM.SetPosition(i, new Vector3(x, y, z));
 
             angle += 1f;
         }

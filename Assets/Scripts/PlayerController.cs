@@ -5,6 +5,7 @@ using UnityEngine.Audio;
 
 public class PlayerController : MonoBehaviour
 {
+
     public float speed;
     public float speedSmoothTime = 0.1f;
     float speedSmoothVelocity;
@@ -14,9 +15,10 @@ public class PlayerController : MonoBehaviour
 
     public bool isExiting;
     public bool isMoving;
+    public bool isFrontMirror;
 
-    GameObject reflexion;
-    Reflexion reflexionChild;
+    Reflexion reflexion;
+    GameObject reflexionChild;
 
     public Transform startPoint;
 
@@ -29,14 +31,12 @@ public class PlayerController : MonoBehaviour
     {
         FindObjectOfType<audiomanager>().Play("MainTheme");
         isExiting = true;
-        reflexion = GameObject.FindGameObjectWithTag("Reflexion");
-        reflexionChild = reflexion.gameObject.GetComponent<Reflexion>();
+        reflexion = GameObject.FindGameObjectWithTag("Reflexion").GetComponent<Reflexion>();
+        reflexionChild = GameObject.FindGameObjectWithTag("ReflexionChild"); ;
         rb = GetComponent<Rigidbody>();
         anim = GetComponent<Animator>();
         puff = GameObject.FindGameObjectWithTag("Puff").GetComponent<ParticleSystem>();
         StartCoroutine(StartWalk(transform, startPoint.position, 1.5f));
-       
-
     }
 
     // Update is called once per frame
@@ -51,15 +51,12 @@ public class PlayerController : MonoBehaviour
                 // Walking animation trigger
                 if (Input.GetAxisRaw("Vertical") != 0 || Input.GetAxisRaw("Horizontal") != 0)
                 {
-                    
                     anim.SetBool("isWalking", true);
                     isMoving = true;
-
                 }
                 else
                 {
                     anim.SetBool("isWalking", false);
-
                     isMoving = false;
                 }
                
@@ -68,7 +65,6 @@ public class PlayerController : MonoBehaviour
                 {
                     float targetRotation = Mathf.Atan2(inputDir.x, inputDir.y) * Mathf.Rad2Deg;
                     transform.eulerAngles = Vector3.up * Mathf.SmoothDampAngle(transform.eulerAngles.y, targetRotation, ref turnSmoothVelocity, turnSmoothTime);
-                    
                 }
 
                 // Walking controller
@@ -81,11 +77,13 @@ public class PlayerController : MonoBehaviour
                 {
                     FindObjectOfType<audiomanager>().Play("Walking");
                 }
-                else FindObjectOfType<audiomanager>().Pause("Walking");
+                else {
+                    FindObjectOfType<audiomanager>().Pause("Walking");
+                }
 
 
                 //warping controller
-                if (reflexionChild.isActive && reflexionChild.isFrontMirror)
+                if (reflexion.isActive && isFrontMirror)
                 {
                     if (Input.GetKeyDown("space"))
                     {
@@ -117,11 +115,6 @@ public class PlayerController : MonoBehaviour
         anim.speed = 0.5f;
         anim.SetBool("isWalking", true);
         
-        
-
-        
-
-        
         while (t < 1)
         {
 
@@ -130,16 +123,35 @@ public class PlayerController : MonoBehaviour
             yield return null;
            
         }
-        
 
         anim.SetBool("isWalking", false);
       
-        
-        
         anim.speed = 1f;
         isExiting = false;
-       
-        
 
+    }
+
+    public void OnTriggerEnter(Collider other)
+    {
+        if (other.tag == "ColliderInFront")
+        {
+            isFrontMirror = true;
+        }
+    }
+
+    public void OnTriggerStay(Collider other)
+    {
+        if (other.tag == "ColliderInFront")
+        {
+            isFrontMirror = true;
+        }
+    }
+
+    public void OnTriggerExit(Collider other)
+    {
+        if (other.tag == "ColliderInFront")
+        {
+            isFrontMirror = false;
+        }
     }
 }

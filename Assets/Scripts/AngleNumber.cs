@@ -24,6 +24,6 @@ public class AngleNumber : MonoBehaviour
     void Update()
     {
         angleNumber = reflexionChild.angleInci;
-        angleText.text = angleNumber.ToString();
+        angleText.text = angleNumber.ToString() + "°";
     }
 }

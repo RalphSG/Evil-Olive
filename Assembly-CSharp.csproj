@@ -63,7 +63,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\audiomanager.cs" />
-    <Compile Include="Assets\HandleScript.cs" />
     <Compile Include="Assets\Scripts\AngleNumber.cs" />
     <Compile Include="Assets\Scripts\CircleRendererMR.cs" />
     <Compile Include="Assets\Scripts\CircleRendererPM.cs" />
@@ -72,6 +71,7 @@
     <Compile Include="Assets\Scripts\Exit.cs" />
     <Compile Include="Assets\Scripts\FaceCamera.cs" />
     <Compile Include="Assets\Scripts\FirelightFlickering.cs" />
+    <Compile Include="Assets\Scripts\HandleScript.cs" />
     <Compile Include="Assets\Scripts\Line_Graph.cs" />
     <Compile Include="Assets\Scripts\Line_PlayerMirror.cs" />
     <Compile Include="Assets\Scripts\OutSkirtColliders.cs" />
@@ -80,11 +80,11 @@
     <Compile Include="Assets\Scripts\ReflexionUnactive.cs" />
     <Compile Include="Assets\Scripts\Rotate_Mirror.cs" />
     <Compile Include="Assets\Scripts\SceneTransition.cs" />
+    <Compile Include="Assets\Scripts\SimulatePS.cs" />
+    <Compile Include="Assets\Scripts\Sound.cs" />
     <Compile Include="Assets\Scripts\TestLineRend.cs" />
     <Compile Include="Assets\Scripts\ThunderLight.cs" />
     <Compile Include="Assets\Scripts\ThunderLightningLevels.cs" />
-    <Compile Include="Assets\Sounds\EmptyScript.cs" />
-    <Compile Include="Assets\Sounds\Sound.cs" />
     <None Include="Assets\Materials\StencilShaderRead.shader" />
     <None Include="Assets\Materials\StencilShaderWrite.shader" />
     <Reference Include="Unity.Timeline.Editor">

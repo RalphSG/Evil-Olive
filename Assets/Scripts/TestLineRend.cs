@@ -5,7 +5,11 @@ using UnityEngine;
 public class TestLineRend : MonoBehaviour
 {
     public Transform playerTrans;
+    public GameObject[] mirrors;
+    public GameObject mirror;
+    public int currentNumMirrors;
     public Transform mirrorTrans;
+
     public Transform reflexionTrans;
     private Vector3 lineStart;
     private Vector3 lineMiddle;
@@ -20,19 +24,44 @@ public class TestLineRend : MonoBehaviour
     Reflexion reflexion;
     GameObject reflexionChild;
 
+    PlayerController playerCont;
+
     CapsuleCollider capsulePM;
     CapsuleCollider capsuleMR;
+
+    private int segments;
+    public float xRadius;
+    public float zRadius;
+    LineRenderer lineRendCirclePM;
+    LineRenderer lineRendCircleMR;
+    public GameObject circlePM;
+    public GameObject circleMR;
+    private bool isPM;
 
 
     // Start is called before the first frame update
     void Start()
     {
         playerTrans = GameObject.FindGameObjectWithTag("Player").transform;
-        mirrorTrans = GameObject.FindGameObjectWithTag("Mirror").transform;
+        mirrors = GameObject.FindGameObjectsWithTag("Mirror");
+        currentNumMirrors = 0;
+        mirror = mirrors[currentNumMirrors];
+        mirrorTrans = mirror.transform;
+
+
         reflexionTrans = GameObject.FindGameObjectWithTag("ReflexionChild").transform;
+        circlePM = GameObject.FindGameObjectWithTag("CirclePM");
+        lineRendCirclePM = circlePM.GetComponent<LineRenderer>();
+        circleMR = GameObject.FindGameObjectWithTag("CircleMR");
+        lineRendCircleMR = circleMR.GetComponent<LineRenderer>();
+
+        circlePM.transform.position = new Vector3(mirror.transform.position.x, 2.3f, mirror.transform.position.z);
+        circleMR.transform.position = new Vector3(mirror.transform.position.x, 2.3f, mirror.transform.position.z);
 
         reflexion = GameObject.FindGameObjectWithTag("Reflexion").GetComponent<Reflexion>();
         reflexionChild = GameObject.FindGameObjectWithTag("ReflexionChild");
+
+        playerCont = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerController>();
 
         lineRendererPM = GameObject.FindGameObjectWithTag("LinePM").GetComponent<LineRenderer>();
         lineRendererMR = GameObject.FindGameObjectWithTag("LineMR").GetComponent<LineRenderer>();
@@ -58,6 +87,21 @@ public class TestLineRend : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        // Selection of the used mirror
+        if (Input.GetKeyDown(KeyCode.Tab))
+        {
+            currentNumMirrors++;
+            if (currentNumMirrors == mirrors.Length)
+            {
+                currentNumMirrors = 0;
+            }
+
+            mirror = mirrors[currentNumMirrors];
+            mirrorTrans = mirror.transform;
+            circlePM.transform.position = new Vector3(mirror.transform.position.x, 2.3f, mirror.transform.position.z);
+            circleMR.transform.position = new Vector3(mirror.transform.position.x, 2.3f, mirror.transform.position.z);
+        }
+
         if (reflexion.isActive)
         {
             lineRendererPM.startColor = new Color(0, 0.8652894f, 1, 1);
@@ -79,7 +123,7 @@ public class TestLineRend : MonoBehaviour
         //    lineRendererMR.isVisible = false;
         //}
 
-        if (!reflexion.isFrontMirror)
+        if (!playerCont.isFrontMirror)
         {
             lineRendMRObject.SetActive(false);
             lineRendPMObject.SetActive(false);
@@ -98,7 +142,7 @@ public class TestLineRend : MonoBehaviour
 
 
         lineStart = new Vector3(playerTrans.position.x, playerTrans.position.y + 2f, playerTrans.position.z);
-        lineMiddle = new Vector3(mirrorTrans.position.x, mirrorTrans.position.y + 2f, mirrorTrans.position.z);
+        lineMiddle = new Vector3(mirrorTrans.position.x, 2.3f, mirrorTrans.position.z);
         lineEnd = new Vector3(reflexionTrans.position.x, reflexionTrans.position.y + 2f, reflexionTrans.position.z);
 
         lineRendererPM.SetPosition(0, lineStart);
@@ -115,6 +159,50 @@ public class TestLineRend : MonoBehaviour
         capsuleMR.transform.LookAt(lineMiddle);
         capsuleMR.height = (lineEnd - lineMiddle).magnitude;
 
+        // Circle for angle display Player-Mirror
+        segments = reflexion.angleInci;
+        lineRendCirclePM.positionCount = (segments + 1);
+        lineRendCirclePM.useWorldSpace = false;
+
+        isPM = true;
+        CreatePoints();
+
+        circlePM.transform.localEulerAngles = new Vector3(gameObject.transform.localEulerAngles.x, mirror.transform.localEulerAngles.y - 180f, gameObject.transform.localEulerAngles.z);
+
+        // Circle for angle display Mirror-Reflexion
+        lineRendCircleMR.positionCount = (segments + 1);
+        lineRendCircleMR.useWorldSpace = false;
+
+        isPM = false;
+        CreatePoints();
+
+        circleMR.transform.localEulerAngles = new Vector3(gameObject.transform.localEulerAngles.x, mirror.transform.localEulerAngles.y - 180f, gameObject.transform.localEulerAngles.z);
+    }
+
+    void CreatePoints()
+    {
+        float x;
+        float y = 0f;
+        float z;
+
+        float angle = 214f; // 214 = 180 + 34 (for the static mirror)
+
+        for (int i = 0; i < (segments + 1); i++)
+        {
+            x = Mathf.Sin(Mathf.Deg2Rad * angle) * xRadius;
+            z = Mathf.Cos(Mathf.Deg2Rad * angle) * zRadius;
+
+            if (isPM)
+            {
+                lineRendCirclePM.SetPosition(i, new Vector3(x, y, z));
+                angle += 1f;
+            }
+            else
+            {
+                lineRendCircleMR.SetPosition(i, new Vector3(x, y, z));
+                angle -= 1f;
+            }
+        }
     }
 
 }

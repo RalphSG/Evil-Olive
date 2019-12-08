@@ -18,6 +18,9 @@ TagManager:
   - Button
   - CirclePM
   - CircleMR
+  - ColliderInFront
+  - Audiomanager
+  - AngleIncidence
   layers:
   - Default
   - TransparentFX

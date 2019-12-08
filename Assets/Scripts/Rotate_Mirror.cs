@@ -4,19 +4,5 @@ using UnityEngine;
 
 public class Rotate_Mirror : MonoBehaviour
 {
-    public float speed = 3f;
-    public GameObject rmirror;
-    HandleScript handler;
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-
-    }
-   
+    HandleScript handler;  
 }

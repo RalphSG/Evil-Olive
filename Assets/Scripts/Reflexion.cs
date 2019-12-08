@@ -9,15 +9,19 @@ public class Reflexion : MonoBehaviour
     public GameObject player;
     public float playerX;
     public float playerZ;
+    private PlayerController playerCont;
 
     public Renderer materialColor;
     Color reflexionOn = new Color(0f, 0.7230554f, 1f, 0f);
     Color reflexionOff = new Color(0f, 0.624114f, 1f, 0f);
 
+    public GameObject[] mirrors;
     public GameObject mirror;
+    public int currentNumMirrors;
     public float mirrorX;
     public float mirrorZ;
     public float mirrorRot;
+    public BoxCollider inFrontCol;
 
     public float multiplier;
     public float targetX;
@@ -40,21 +44,47 @@ public class Reflexion : MonoBehaviour
     public int angleInci;
 
     public bool isActive;
-    public bool isFrontMirror;
 
     void Start()
     {
         player = GameObject.FindGameObjectWithTag("Player");
+        playerCont = player.GetComponent<PlayerController>();
         speed = 5000f;
-        mirror = GameObject.FindGameObjectWithTag("Mirror");
+        mirrors = GameObject.FindGameObjectsWithTag("Mirror");
+        currentNumMirrors = 0;
+        mirror = mirrors[currentNumMirrors];
         mirrorX = mirror.transform.position.x;
         mirrorZ = mirror.transform.position.z;
+
+        inFrontCol = mirror.GetComponentInChildren<BoxCollider>();
+        inFrontCol.enabled = true;
 
         isActive = true;
     }
 
     void Update()
     {
+        // Selection of the used mirror
+        if (Input.GetKeyDown(KeyCode.Tab))
+        {
+            inFrontCol.enabled = false;
+            isActive = false;
+            playerCont.isFrontMirror = false;
+            currentNumMirrors++;
+            if (currentNumMirrors == mirrors.Length)
+            {
+                currentNumMirrors = 0;
+            }
+
+            mirror = mirrors[currentNumMirrors];
+
+            mirrorX = mirror.transform.position.x;
+            mirrorZ = mirror.transform.position.z;
+
+            inFrontCol = mirror.GetComponentInChildren<BoxCollider>();
+            inFrontCol.enabled = true;
+        }
+
         // Movement of reflexion
         playerX = player.transform.position.x;
         playerZ = player.transform.position.z;
@@ -80,29 +110,29 @@ public class Reflexion : MonoBehaviour
         lengthPR = Mathf.Sqrt(Mathf.Pow(playerX - targetX, 2) + Mathf.Pow(playerZ - targetZ, 2));
         angleInci = Mathf.RoundToInt(Mathf.Rad2Deg*(Mathf.Asin(((Mathf.Deg2Rad*lengthPR) / 2) / (Mathf.Deg2Rad*lengthPM))));
 
-        // Is the player behind the mirror or in front (in order to block warping if behind)
-        anglePM = Mathf.Rad2Deg * (Mathf.Atan((mirrorZ - playerZ) / (mirrorX - playerX)));
-        if (playerX < mirrorX)
-        {
-            if (((anglePM - 179f) < (146 - mirrorRot)) && ((146 - mirrorRot) < (anglePM - 1)))
-            {
-                isFrontMirror = true;
-            }
-            else {
-                isFrontMirror = false;
-            }
-        }
-        if (mirrorX <= playerX)
-        {
-            if (((anglePM + 179f) > (146 - mirrorRot)) && ((146 - mirrorRot) > (anglePM - 1)))
-            {
-                isFrontMirror = true;
-            }
-            else
-            {
-                isFrontMirror = false;
-            }
-        }
+        //// Is the player behind the mirror or in front (in order to block warping if behind)
+        //anglePM = Mathf.Rad2Deg * (Mathf.Atan((mirrorZ - playerZ) / (mirrorX - playerX)));
+        //if (playerX < mirrorX)
+        //{
+        //    if (((anglePM - 179f) < (146 - mirrorRot)) && ((146 - mirrorRot) < (anglePM - 1)))
+        //    {
+        //        isFrontMirror = true;
+        //    }
+        //    else {
+        //        isFrontMirror = false;
+        //    }
+        //}
+        //if (mirrorX <= playerX)
+        //{
+        //    if (((anglePM + 179f) > (146 - mirrorRot)) && ((146 - mirrorRot) > (anglePM - 1)))
+        //    {
+        //        isFrontMirror = true;
+        //    }
+        //    else
+        //    {
+        //        isFrontMirror = false;
+        //    }
+        //}
     }
 
     private void OnTriggerEnter(Collider other)
