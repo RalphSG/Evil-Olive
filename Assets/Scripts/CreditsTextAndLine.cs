@@ -28,7 +28,10 @@ public class CreditsTextAndLine : MonoBehaviour
 
     IEnumerator puff()
     {
+        FindObjectOfType<audiomanager>().Play("Walking");
         yield return new WaitForSeconds(1.95f);
+        FindObjectOfType<audiomanager>().Pause("Walking");
+        FindObjectOfType<audiomanager>().Play("Warp");
         puffPS.Play();
         int steps = 5;
         for (float i = 100; i > 0; i= i-steps)
@@ -38,8 +41,8 @@ public class CreditsTextAndLine : MonoBehaviour
             {
                 colorPourcent = 0;
             }
-            Debug.Log(i);
-            Debug.Log(colorPourcent);
+            //Debug.Log(i);
+            //Debug.Log(colorPourcent);
             lineRend.endColor = new Color(0, 0.8666667f, 1, colorPourcent);
             colorPourcent = colorPourcent / 2;
             lineRend.startColor = new Color(0, 0.8666667f, 1, colorPourcent);

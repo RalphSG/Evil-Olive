@@ -382,7 +382,9 @@ MonoBehaviour:
     Hereby the credits to the external assets we used:
 
 
-    Some sound effects from https://www.zapsplat.com'
+    Some sound effects from https://www.zapsplat.com
+
+    Some sound effects from https://www.freesounds.org/people/Timbre'
 --- !u!222 &941287049
 CanvasRenderer:
   m_ObjectHideFlags: 0

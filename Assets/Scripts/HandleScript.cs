@@ -23,22 +23,22 @@ public class HandleScript : MonoBehaviour
     {
         if ((position == false) & (other.tag == "Player") & (Input.GetKeyDown(KeyCode.E)))
         {
+            FindObjectOfType<audiomanager>().Play("Handle");
             transform.Rotate(0.0f, 0.0f, -rotSpeedHandle * Time.deltaTime);
             
             position = true;
             
             StartCoroutine(RotationMirror(mirror));
-            FindObjectOfType<audiomanager>().Play("Handle");
             
 
         }
         else if ((position == true) & (other.tag == "Player") & (Input.GetKeyDown(KeyCode.E)) )
         {
+            FindObjectOfType<audiomanager>().Play("Handle");
             transform.Rotate(0.0f, 0.0f, rotSpeedHandle * Time.deltaTime);
             
             position = false;
 
-            FindObjectOfType<audiomanager>().Play("Handle");
             StartCoroutine(RotationMirror2( mirror));
         }
     }
@@ -46,24 +46,26 @@ public class HandleScript : MonoBehaviour
     IEnumerator RotationMirror( GameObject target)
     {
         anim.SetBool("isRotating", true);
+        FindObjectOfType<audiomanager>().Play("Rotate");
         for (int i = 0; i < mirrorAngle; i++)
         {
             target.transform.Rotate(0.0f, 1f, 0f, Space.Self);
-            FindObjectOfType<audiomanager>().Play("Rotate");
             yield return new WaitForSeconds(0.01f);
         }
+        FindObjectOfType<audiomanager>().Pause("Rotate");
         anim.SetBool("isRotating", false);
     }
 
     IEnumerator RotationMirror2( GameObject target)
     {
         anim.SetBool("isRotating", true);
+        FindObjectOfType<audiomanager>().Play("Rotate");
         for (int i = 0; i < mirrorAngle; i++)
         {
             target.transform.Rotate(0.0f, -1f, 0f, Space.Self);
-            FindObjectOfType<audiomanager>().Play("Rotate");
             yield return new WaitForSeconds(0.01f);
         }
+        FindObjectOfType<audiomanager>().Pause("Rotate");
         anim.SetBool("isRotating", false);
     }
 

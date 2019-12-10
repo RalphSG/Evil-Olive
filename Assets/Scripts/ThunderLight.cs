@@ -74,7 +74,7 @@ public class ThunderLight : MonoBehaviour
     IEnumerator lightningFlickering1()
     {
         lightning3.Play();
-        
+        FindObjectOfType<audiomanager>().Play("Thunder");
 
         randlight1 = Random.Range(15,20);
         for (int i = 0; i < randlight1; i++)
@@ -92,7 +92,7 @@ public class ThunderLight : MonoBehaviour
 
     IEnumerator lightningFlickering2()
     {
-        
+        FindObjectOfType<audiomanager>().Play("Thunder");
         randlight2 = Random.Range(15, 20);
         for (int i = 0; i < randlight2; i++)
         {
@@ -113,15 +113,19 @@ public class ThunderLight : MonoBehaviour
         switch (randPSInit)
         {
             case 1:
+                FindObjectOfType<audiomanager>().Play("Thunder");
                 lightning1.Play();
                 break;
             case 2:
+                FindObjectOfType<audiomanager>().Play("Thunder");
                 lightning2.Play();
                 break;
             case 3:
+                FindObjectOfType<audiomanager>().Play("Thunder");
                 lightning4.Play();
                 break;
             case 4:
+                FindObjectOfType<audiomanager>().Play("Thunder");
                 lightning5.Play();
                 break;
             default:

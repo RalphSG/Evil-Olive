@@ -19,6 +19,10 @@ public class SceneTransition : MonoBehaviour
     {
         transitionAnim.SetTrigger("end");
         yield return new WaitForSeconds(1.5f);
+        if (SceneManager.GetActiveScene().name == "MainMenu")
+        {
+            yield return new WaitForSeconds(2.5f);
+        }
         SceneManager.LoadScene(sceneName1);
     }
 

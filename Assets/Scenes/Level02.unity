@@ -5591,6 +5591,7 @@ GameObject:
   - component: {fileID: 958063856}
   - component: {fileID: 958063855}
   - component: {fileID: 958063854}
+  - component: {fileID: 958063858}
   m_Layer: 5
   m_Name: QuitButton
   m_TagString: Untagged
@@ -5702,6 +5703,17 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 958063858}
+        m_MethodName: ClickSound
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &958063856
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5738,6 +5750,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 958063852}
   m_CullTransparentMesh: 0
+--- !u!114 &958063858
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 958063852}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a83fae4dcc40a1a47957ca1a63084bcd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &961337709 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -4216859302048453862, guid: 4d66a61a3988ed2439ea74a35d32874e,
@@ -7218,6 +7242,7 @@ GameObject:
   - component: {fileID: 1162729903}
   - component: {fileID: 1162729902}
   - component: {fileID: 1162729901}
+  - component: {fileID: 1162729905}
   m_Layer: 5
   m_Name: MainMenuButton
   m_TagString: Untagged
@@ -7329,6 +7354,17 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1162729905}
+        m_MethodName: ClickSound
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1162729903
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7365,6 +7401,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1162729899}
   m_CullTransparentMesh: 0
+--- !u!114 &1162729905
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1162729899}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a83fae4dcc40a1a47957ca1a63084bcd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1182419147 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1771211147282710, guid: 5c2df5d3440a5684989206d1d0a371c3,
@@ -7545,38 +7593,56 @@ MonoBehaviour:
     source: {fileID: 0}
     loop: 0
   - name: Warp
-    clip: {fileID: 8300000, guid: 274cb9a9c3ab35d4ba503dcbe6bad0ee, type: 3}
+    clip: {fileID: 8300000, guid: 69b0540c606c5ff489922e4dffa6e46b, type: 3}
     volume: 0.43
     pitch: 1
     source: {fileID: 0}
     loop: 0
   - name: Thunder
     clip: {fileID: 8300000, guid: 5acd15cb1dae2ab4b8ac9514f17e1bb1, type: 3}
-    volume: 1
+    volume: 0.02
     pitch: 1
     source: {fileID: 0}
     loop: 0
   - name: MainTheme
     clip: {fileID: 8300000, guid: fdf345756d3e0954aba29b44dbb43f0c, type: 3}
-    volume: 1
+    volume: 0.2
     pitch: 1
     source: {fileID: 0}
     loop: 1
   - name: Torch
-    clip: {fileID: 8300000, guid: db42403c37409e747bfe38e5a8941e30, type: 3}
+    clip: {fileID: 8300000, guid: c5490dd7d810abb42bc161fdea9c44e7, type: 3}
     volume: 0.5
     pitch: 1
     source: {fileID: 0}
     loop: 1
   - name: Handle
-    clip: {fileID: 8300000, guid: 137602d74194c164eb371401a2f9bc1b, type: 3}
+    clip: {fileID: 8300000, guid: a832e0712c9f7c542b0754c3858611c7, type: 3}
     volume: 1
     pitch: 1
     source: {fileID: 0}
     loop: 0
   - name: Rotate
-    clip: {fileID: 8300000, guid: a832e0712c9f7c542b0754c3858611c7, type: 3}
-    volume: 1
+    clip: {fileID: 8300000, guid: 9c0b53a8ccce2cf47858c1ce902dc691, type: 3}
+    volume: 0.3
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0
+  - name: Error
+    clip: {fileID: 8300000, guid: fa490633fa4f58841aa3aba3cc8dc579, type: 3}
+    volume: 0.05
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0
+  - name: ButtonClick
+    clip: {fileID: 8300000, guid: 137602d74194c164eb371401a2f9bc1b, type: 3}
+    volume: 0.3
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0
+  - name: ButtonHover
+    clip: {fileID: 8300000, guid: eb6d1d5cff7329a4d96a70a6e8ac5299, type: 3}
+    volume: 0.1
     pitch: 1
     source: {fileID: 0}
     loop: 0
@@ -8897,7 +8963,7 @@ PrefabInstance:
     - target: {fileID: 6122206748659137671, guid: 04081f3a23a5f4a44a554323bef1c0e4,
         type: 3}
       propertyPath: sceneName1
-      value: Level01
+      value: ThankYou
       objectReference: {fileID: 0}
     - target: {fileID: 6122206748659137671, guid: 04081f3a23a5f4a44a554323bef1c0e4,
         type: 3}

@@ -1387,7 +1387,7 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: f90dfcfc58c79164bb9f3def04cad07b,
         type: 3}
       propertyPath: m_RootOrder
-      value: 15
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: f90dfcfc58c79164bb9f3def04cad07b,
         type: 3}
@@ -1994,7 +1994,7 @@ PrefabInstance:
     - target: {fileID: 8418302593265855688, guid: 7659cee348bc1cd4aa3e4ba36d170a46,
         type: 3}
       propertyPath: m_RootOrder
-      value: 12
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 8418302593265855688, guid: 7659cee348bc1cd4aa3e4ba36d170a46,
         type: 3}
@@ -3496,86 +3496,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 544355220}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &555127107
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 555127108}
-  - component: {fileID: 555127109}
-  m_Layer: 0
-  m_Name: AudioManager
-  m_TagString: Audiomanager
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &555127108
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 555127107}
-  m_LocalRotation: {x: 0.3108544, y: -0.6351139, z: 0.3108544, w: 0.63511384}
-  m_LocalPosition: {x: 26.7, y: 30.9, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &555127109
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 555127107}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4025f278bcfa0954c996fd759b8b3319, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  sounds:
-  - name: Walking
-    clip: {fileID: 8300000, guid: d6a5e24716103204390d6acf2b707679, type: 3}
-    volume: 1
-    pitch: 1
-    source: {fileID: 0}
-    loop: 1
-  - name: Warp
-    clip: {fileID: 8300000, guid: 274cb9a9c3ab35d4ba503dcbe6bad0ee, type: 3}
-    volume: 0.2
-    pitch: 1
-    source: {fileID: 0}
-    loop: 0
-  - name: Thunder
-    clip: {fileID: 8300000, guid: 5acd15cb1dae2ab4b8ac9514f17e1bb1, type: 3}
-    volume: 0.217
-    pitch: 1
-    source: {fileID: 0}
-    loop: 0
-  - name: MainTheme
-    clip: {fileID: 8300000, guid: fdf345756d3e0954aba29b44dbb43f0c, type: 3}
-    volume: 0.1
-    pitch: 1
-    source: {fileID: 0}
-    loop: 1
-  - name: Torch
-    clip: {fileID: 8300000, guid: c5490dd7d810abb42bc161fdea9c44e7, type: 3}
-    volume: 1
-    pitch: 1
-    source: {fileID: 0}
-    loop: 1
-  - name: Error
-    clip: {fileID: 8300000, guid: e22a22dc9dae5764a9d28e80d97921f3, type: 3}
-    volume: 0.508
-    pitch: 1
-    source: {fileID: 0}
-    loop: 0
 --- !u!1001 &557270859
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4706,7 +4626,7 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: f90dfcfc58c79164bb9f3def04cad07b,
         type: 3}
       propertyPath: m_RootOrder
-      value: 14
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: f90dfcfc58c79164bb9f3def04cad07b,
         type: 3}
@@ -5089,7 +5009,7 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: f90dfcfc58c79164bb9f3def04cad07b,
         type: 3}
       propertyPath: m_RootOrder
-      value: 17
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: f90dfcfc58c79164bb9f3def04cad07b,
         type: 3}
@@ -6424,7 +6344,7 @@ PrefabInstance:
     - target: {fileID: 8418302593265855688, guid: bbf161bd12c679d4495333c272e8f911,
         type: 3}
       propertyPath: m_RootOrder
-      value: 13
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 8418302593265855688, guid: bbf161bd12c679d4495333c272e8f911,
         type: 3}
@@ -13596,7 +13516,7 @@ PrefabInstance:
     - target: {fileID: 7720624413683367469, guid: 14b980726d2959048bfa044e2cebeff9,
         type: 3}
       propertyPath: m_RootOrder
-      value: 16
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 7720624413683367469, guid: 14b980726d2959048bfa044e2cebeff9,
         type: 3}
@@ -13726,6 +13646,110 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1830238917}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1305567600
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1305567602}
+  - component: {fileID: 1305567601}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1305567601
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1305567600}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4025f278bcfa0954c996fd759b8b3319, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: Walking
+    clip: {fileID: 8300000, guid: d6a5e24716103204390d6acf2b707679, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0
+  - name: Warp
+    clip: {fileID: 8300000, guid: 69b0540c606c5ff489922e4dffa6e46b, type: 3}
+    volume: 0.43
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0
+  - name: Thunder
+    clip: {fileID: 8300000, guid: 5acd15cb1dae2ab4b8ac9514f17e1bb1, type: 3}
+    volume: 0.02
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0
+  - name: MainTheme
+    clip: {fileID: 8300000, guid: fdf345756d3e0954aba29b44dbb43f0c, type: 3}
+    volume: 0.2
+    pitch: 1
+    source: {fileID: 0}
+    loop: 1
+  - name: Torch
+    clip: {fileID: 8300000, guid: c5490dd7d810abb42bc161fdea9c44e7, type: 3}
+    volume: 0.5
+    pitch: 1
+    source: {fileID: 0}
+    loop: 1
+  - name: Handle
+    clip: {fileID: 8300000, guid: a832e0712c9f7c542b0754c3858611c7, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0
+  - name: Rotate
+    clip: {fileID: 8300000, guid: 9c0b53a8ccce2cf47858c1ce902dc691, type: 3}
+    volume: 0.3
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0
+  - name: Error
+    clip: {fileID: 8300000, guid: fa490633fa4f58841aa3aba3cc8dc579, type: 3}
+    volume: 0.05
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0
+  - name: ButtonClick
+    clip: {fileID: 8300000, guid: 137602d74194c164eb371401a2f9bc1b, type: 3}
+    volume: 0.3
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0
+  - name: ButtonHover
+    clip: {fileID: 8300000, guid: eb6d1d5cff7329a4d96a70a6e8ac5299, type: 3}
+    volume: 0.1
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0
+--- !u!4 &1305567602
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1305567600}
+  m_LocalRotation: {x: 0.3108544, y: -0.6351139, z: 0.3108544, w: 0.63511384}
+  m_LocalPosition: {x: 26.7, y: 30.9, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1307135990 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -4216859302048453862, guid: f90dfcfc58c79164bb9f3def04cad07b,
@@ -15804,7 +15828,7 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: e55d4b0cbbb353747b4717ea2ed298d5,
         type: 3}
       propertyPath: m_RootOrder
-      value: 19
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: e55d4b0cbbb353747b4717ea2ed298d5,
         type: 3}
@@ -19019,7 +19043,7 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: f90dfcfc58c79164bb9f3def04cad07b,
         type: 3}
       propertyPath: m_RootOrder
-      value: 18
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: f90dfcfc58c79164bb9f3def04cad07b,
         type: 3}
