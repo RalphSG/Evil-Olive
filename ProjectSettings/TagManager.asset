@@ -21,6 +21,7 @@ TagManager:
   - ColliderInFront
   - Audiomanager
   - AngleIncidence
+  - Torch
   layers:
   - Default
   - TransparentFX

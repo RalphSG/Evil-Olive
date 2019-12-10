@@ -31,6 +31,7 @@ public class ThunderLightningLevels : MonoBehaviour
             randInitiation = Random.Range(0, 10);
             yield return new WaitForSeconds(randInitiation);
             StartCoroutine("lightningFlickering");
+            FindObjectOfType<audiomanager>().Play("Thunder");
         }
     }
 

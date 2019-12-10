@@ -43,21 +43,23 @@ public class PlayerController : MonoBehaviour
     void Update() {
         if (!isExiting)
         {
+            
             if (!anim.GetBool("isWarping"))
             {
                 Vector2 input = new Vector2(-Input.GetAxisRaw("Vertical"), Input.GetAxisRaw("Horizontal"));
                 Vector2 inputDir = input.normalized;
                 
+
                 // Walking animation trigger
                 if (Input.GetAxisRaw("Vertical") != 0 || Input.GetAxisRaw("Horizontal") != 0)
                 {
                     anim.SetBool("isWalking", true);
-                    isMoving = true;
+                    
                 }
                 else
                 {
                     anim.SetBool("isWalking", false);
-                    isMoving = false;
+                    FindObjectOfType<audiomanager>().Play("Walking");
                 }
                
           
@@ -73,13 +75,7 @@ public class PlayerController : MonoBehaviour
 
                 transform.Translate(transform.forward * currentSpeed * Time.deltaTime, Space.World);
 
-                if (isMoving == true)
-                {
-                    FindObjectOfType<audiomanager>().Play("Walking");
-                }
-                else {
-                    FindObjectOfType<audiomanager>().Pause("Walking");
-                }
+
 
 
                 //warping controller
@@ -90,6 +86,12 @@ public class PlayerController : MonoBehaviour
                         StartCoroutine(Warping());
                         FindObjectOfType<audiomanager>().Play("Warp");
                     }
+                }
+                else if (reflexionChild.gameObject.activeSelf == true && Input.GetKeyDown("space"))
+                {
+                
+                        FindObjectOfType<audiomanager>().Play("Error");
+                   
                 }
             }
         }
@@ -114,7 +116,8 @@ public class PlayerController : MonoBehaviour
 
         anim.speed = 0.5f;
         anim.SetBool("isWalking", true);
-        
+        FindObjectOfType<audiomanager>().Play("Walking");
+
         while (t < 1)
         {
 
@@ -128,6 +131,7 @@ public class PlayerController : MonoBehaviour
       
         anim.speed = 1f;
         isExiting = false;
+        FindObjectOfType<audiomanager>().Pause("Walking");
 
     }
 
@@ -137,6 +141,7 @@ public class PlayerController : MonoBehaviour
         {
             isFrontMirror = true;
         }
+    
     }
 
     public void OnTriggerStay(Collider other)
@@ -144,7 +149,9 @@ public class PlayerController : MonoBehaviour
         if (other.tag == "ColliderInFront")
         {
             isFrontMirror = true;
+
         }
+       
     }
 
     public void OnTriggerExit(Collider other)
@@ -154,4 +161,19 @@ public class PlayerController : MonoBehaviour
             isFrontMirror = false;
         }
     }
+    private void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject.tag == "Torch")
+        {
+            FindObjectOfType<audiomanager>().Play("Torch");
+        }
+    }
+    private void OnCollisionStay(Collision collision)
+    {
+        if (collision.gameObject.tag == "Torch")
+        {
+            FindObjectOfType<audiomanager>().Play("Torch");
+        }
+    }
+
 }
