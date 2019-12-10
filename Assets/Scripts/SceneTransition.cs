@@ -21,7 +21,7 @@ public class SceneTransition : MonoBehaviour
         yield return new WaitForSeconds(1.5f);
         if (SceneManager.GetActiveScene().name == "MainMenu")
         {
-            yield return new WaitForSeconds(2.5f);
+            yield return new WaitForSeconds(2f);
         }
         SceneManager.LoadScene(sceneName1);
     }

@@ -4214,6 +4214,7 @@ GameObject:
   m_Component:
   - component: {fileID: 710429507}
   - component: {fileID: 710429508}
+  - component: {fileID: 710429509}
   m_Layer: 0
   m_Name: Mirror (1)
   m_TagString: Untagged
@@ -4259,6 +4260,19 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!65 &710429509
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 710429506}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.5, y: 3, z: 1.5}
+  m_Center: {x: 0, y: -8.1, z: 0}
 --- !u!1001 &711294268
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7481,7 +7495,7 @@ PrefabInstance:
     - target: {fileID: 1473927867296917364, guid: e14a6bcf99a48d346a0ee4379af62db1,
         type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 1473927867296917364, guid: e14a6bcf99a48d346a0ee4379af62db1,
         type: 3}
@@ -7547,6 +7561,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Pivot.y
       value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1473927867296917364, guid: e14a6bcf99a48d346a0ee4379af62db1,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1473927867296917364, guid: e14a6bcf99a48d346a0ee4379af62db1,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1473927867296917364, guid: e14a6bcf99a48d346a0ee4379af62db1,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e14a6bcf99a48d346a0ee4379af62db1, type: 3}
@@ -10101,8 +10130,8 @@ RectTransform:
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_Children:
   - {fileID: 211231881}
-  - {fileID: 1915867741}
   - {fileID: 1773332141}
+  - {fileID: 1915867741}
   m_Father: {fileID: 0}
   m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -11365,6 +11394,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1615319345}
   - component: {fileID: 1615319346}
+  - component: {fileID: 1615319347}
   m_Layer: 0
   m_Name: Mirror (2)
   m_TagString: Untagged
@@ -11410,6 +11440,19 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!65 &1615319347
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1615319344}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.5, y: 3, z: 1.5}
+  m_Center: {x: 0, y: -8.1, z: 0}
 --- !u!1 &1651317055
 GameObject:
   m_ObjectHideFlags: 0
@@ -12618,7 +12661,7 @@ RectTransform:
   m_Children:
   - {fileID: 443689551}
   m_Father: {fileID: 1466386598}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
